@@ -11,6 +11,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'zurb-foundation'
 gem 'compass-rails', '~> 2.0.alpha.0'
 gem 'sass-rails'
+gem 'uglifier'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
