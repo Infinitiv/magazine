@@ -6,11 +6,9 @@ gem 'rails', '~> 4.0.0'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 
-group :assets do
-  # Use CoffeeScript for .js.coffee assets and views
-  gem 'coffee-rails', '~> 4.0.0'
-  gem 'zurb-foundation'
-end
+# Use CoffeeScript for .js.coffee assets and views
+gem 'coffee-rails', '~> 4.0.0'
+gem 'zurb-foundation'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
