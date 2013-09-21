@@ -9,6 +9,8 @@ gem 'mysql2'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 gem 'zurb-foundation'
+gem 'compass-rails', '~> 2.0.alpha.0'
+gem 'sass-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -44,3 +46,5 @@ gem 'capistrano', group: :development
 gem 'will_paginate'
 
 gem 'yaml_db'
+
+gem 'sprockets-rails', :require => 'sprockets/railtie'

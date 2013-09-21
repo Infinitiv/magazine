@@ -1,21 +1,25 @@
-<div>
-<%= form_tag login_path, :class => 'form-horizontal' do %>
-  <fieldset>
-    <legend>Вход в систему</legend>
-  <div class="control-group">
-    <%= label_tag :login, 'Имя', :class => 'control-label' %>
-    <div class="controls">
-      <%= text_field_tag :login, params[:login], :class => 'text_field' %>
+<div class="row">
+<%= form_tag login_path do %>
+  <fieldset class="small-4 small-centered columns">
+    <legend>Вход</legend>
+  <div class="row">
+    <div class="small-3 columns">
+      <%= label_tag :login, 'Имя', :class => 'right inline' %>
+    </div>
+    <div class="small-9 columns">
+      <%= text_field_tag :login, params[:login] %>
     </div>
   </div>
-  <div class="control-group">
-    <%= label_tag :password, 'Пароль', :class => 'control-label' %>
-    <div class="controls">
-      <%= password_field_tag :password, params[:password], :class => 'text_field' %>
+  <div class="row">
+    <div class="small-3 columns">
+      <%= label_tag :password, 'Пароль', :class => 'right inline' %>
+    </div>
+    <div class="small-9 columns">
+      <%= password_field_tag :password, params[:password] %>
     </div>
   </div>
-  <div class="form-actions">
-    <%= submit_tag 'Войти', :class => 'btn btn-primary' %>
+  <div class="small-3 columns">
+    <%= submit_tag 'Войти', :class => 'small button' %>
   </div>
   </fieldset>
 <% end %>
