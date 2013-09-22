@@ -21,6 +21,27 @@
   </head>
 
   <body>
+    <nav class="top-bar">
+      <ul class="title-area">
+	<li class="name">
+	  <h1><%= link_to 'Вестник ИвГМА', root_path %></h1>
+	</li>
+      </ul>
+
+      <section class="top-bar-section">
+	<ul class="left">
+	  <li class="divider"></li>
+	  <li><%= link_to 'Пользователи', users_path %></li>
+	  <li class="divider"></li>
+	  <li><%= link_to 'Группы', groups_path %></li>
+	</ul>
+	<ul class="right">
+	  <li class="divider"></li>
+	  <li><%= @current_user ? link_to("Выйти", logout_path) : link_to("Войти", login_path) %></li>
+	</ul>
+      </section>
+    </nav>
+
     <div class="row">
       <div class="small-1 large-1 columns">...</div>
     </div>
