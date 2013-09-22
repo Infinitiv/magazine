@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title ru:</strong>
+  <%= @publication.title_ru %>
+</p>
+
+<p>
+  <strong>Title en:</strong>
+  <%= @publication.title_en %>
+</p>
+
+<p>
+  <strong>Authors ru:</strong>
+  <%= @publication.authors_ru %>
+</p>
+
+<p>
+  <strong>Authors en:</strong>
+  <%= @publication.authors_en %>
+</p>
+
+<p>
+  <strong>Keywords ru:</strong>
+  <%= @publication.keywords_ru %>
+</p>
+
+<p>
+  <strong>Keywords en:</strong>
+  <%= @publication.keywords_en %>
+</p>
+
+<p>
+  <strong>Abstract ru:</strong>
+  <%= @publication.abstract_ru %>
+</p>
+
+<p>
+  <strong>Abstract en:</strong>
+  <%= @publication.abstract_en %>
+</p>
+
+<p>
+  <strong>Issue:</strong>
+  <%= @publication.issue_id %>
+</p>
+
+<%= link_to 'Edit', edit_publication_path(@publication) %> |
+<%= link_to 'Back', publications_path %>

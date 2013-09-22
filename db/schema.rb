@@ -11,16 +11,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130922122714) do
+ActiveRecord::Schema.define(version: 20130922165023) do
 
   create_table "attachments", force: true do |t|
     t.string   "title"
-    t.binary   "data"
+    t.binary   "data",       limit: 16777215
     t.string   "mime_type"
     t.binary   "thumbnail"
-    t.text     "content"
+    t.text     "content",    limit: 16777215
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "attachments_issues", id: false, force: true do |t|
+    t.integer "attachment_id", null: false
+    t.integer "issue_id",      null: false
+  end
+
+  create_table "attachments_publications", id: false, force: true do |t|
+    t.integer "publication_id", null: false
+    t.integer "attachment_id",  null: false
   end
 
   create_table "groups", force: true do |t|
@@ -31,6 +41,30 @@ ActiveRecord::Schema.define(version: 20130922122714) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "issues", force: true do |t|
+    t.integer  "year"
+    t.integer  "volume"
+    t.integer  "number"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "publications", force: true do |t|
+    t.text     "title_ru"
+    t.text     "title_en"
+    t.text     "authors_ru"
+    t.text     "authors_en"
+    t.text     "keywords_ru"
+    t.text     "keywords_en"
+    t.text     "abstract_ru"
+    t.text     "abstract_en"
+    t.integer  "issue_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "publications", ["issue_id"], name: "index_publications_on_issue_id", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "login"

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @issue.year %>
+</p>
+
+<p>
+  <strong>Volume:</strong>
+  <%= @issue.volume %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @issue.number %>
+</p>
+
+<%= link_to 'Edit', edit_issue_path(@issue) %> |
+<%= link_to 'Back', issues_path %>

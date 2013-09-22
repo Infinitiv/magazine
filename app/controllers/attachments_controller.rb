@@ -1,5 +1,5 @@
 class AttachmentsController < ApplicationController
-  before_action :set_attachment, only: [:show, :destroy]
+  before_action :set_attachment, only: [:show, :destroy, :minify_img]
   before_action :require_administrator, only: [:index]
 
   # GET /attachments
@@ -11,7 +11,7 @@ class AttachmentsController < ApplicationController
   # GET /attachments/1
   # GET /attachments/1.json
   def show
-      send_data @attachment.data, :filename => @attachment.name, :type => @attachment.mime_type, :disposition => "inline"
+      send_data @attachment.data, :filename => @attachment.title, :type => @attachment.mime_type, :disposition => "inline"
   end
 
   # POST /attachments
@@ -22,7 +22,6 @@ class AttachmentsController < ApplicationController
       @attachment = Attachment.new
       @attachment.uploaded_file = params[:attachment]
       @attachment.thumbnail = thumb(@attachment.data, 150) if @attachment.mime_type =~ /image/
-      @attachment.content = pdf2text(@attachment.data) if @attachment.mime_type =~ /pdf/
 
       if @attachment.save
 	  flash[:notice] = "Thank you for your submission..."
@@ -43,9 +42,8 @@ class AttachmentsController < ApplicationController
     end
   end
 
-  def minify_img
-      @attachment = Attachment.find(params[:id])
-      send_data thumb(@attachment.data, 150), :filename => @attachment.name, :type => @attachment.mime_type, :disposition => "inline"
+  def minify_img()
+    send_data @attachment.thumbnail, :filename => @attachment.title, :type => @attachment.mime_type, :disposition => "inline"
   end
   
   private
@@ -58,11 +56,7 @@ class AttachmentsController < ApplicationController
     def attachment_params
       params.require(:attachment).permit(:title, :data, :mime_type, :thumbnail, :content)
     end
-    
-    def pdf2text(data)
-      `pdftotext #{data} -`
-    end
-    
+      
     def thumb(image, size)
       img = Magick::Image.from_blob(image).first
       img.resize_to_fill!(size).to_blob

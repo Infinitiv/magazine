@@ -1,0 +1,43 @@
+<h1>Listing publications</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title ru</th>
+      <th>Title en</th>
+      <th>Authors ru</th>
+      <th>Authors en</th>
+      <th>Keywords ru</th>
+      <th>Keywords en</th>
+      <th>Abstract ru</th>
+      <th>Abstract en</th>
+      <th>Issue</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @publications.each do |publication| %>
+      <tr>
+        <td><%= publication.title_ru %></td>
+        <td><%= publication.title_en %></td>
+        <td><%= publication.authors_ru %></td>
+        <td><%= publication.authors_en %></td>
+        <td><%= publication.keywords_ru %></td>
+        <td><%= publication.keywords_en %></td>
+        <td><%= publication.abstract_ru %></td>
+        <td><%= publication.abstract_en %></td>
+        <td><%= publication.issue_id %></td>
+        <td><%= link_to 'Show', publication %></td>
+        <td><%= link_to 'Edit', edit_publication_path(publication) %></td>
+        <td><%= link_to 'Destroy', publication, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Publication', new_publication_path %>
