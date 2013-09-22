@@ -49,3 +49,5 @@ gem 'will_paginate'
 gem 'yaml_db'
 
 gem 'sprockets-rails', :require => 'sprockets/railtie'
+
+gem 'rmagick'

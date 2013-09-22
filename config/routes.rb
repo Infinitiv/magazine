@@ -1,4 +1,6 @@
 Magazine::Application.routes.draw do
+  resources :attachments
+
   resources :users
 
   resources :groups
