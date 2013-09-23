@@ -1,7 +1,6 @@
 class Attachment < ActiveRecord::Base
   require 'RMagick'
-  has_many :publications, :through => :attachments_publications
-  has_many :attachments_publications, :dependent => :destroy
+  has_and_belongs_to_many :publications
   
     def uploaded_file=(incoming_file)
         self.title = incoming_file[:file].original_filename

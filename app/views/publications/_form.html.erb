@@ -1,3 +1,4 @@
+<div class="row">
 <%= form_for @publication, url: issue_publications_path(@issue) do |f| %>
   <% if @publication.errors.any? %>
     <div id="error_explanation">
@@ -10,44 +11,64 @@
       </ul>
     </div>
   <% end %>
-
-  <div class="field">
-    <%= f.label :title_ru %><br>
-    <%= f.text_area :title_ru %>
+  <div class="row">
+    <div class="small-2 columns">
+      <%= f.label :title_ru, :class => 'right inline'  %>
+    </div>
+    <div class="small-4 columns">
+      <%= f.text_area :title_ru %>
+    </div>
+    <div class="small-2 columns">
+      <%= f.label :title_en, :class => 'right inline'  %>
+    </div>
+    <div class="small-4 columns">
+      <%= f.text_area :title_en %>
+    </div>
   </div>
-  <div class="field">
-    <%= f.label :title_en %><br>
-    <%= f.text_area :title_en %>
+  <div class="row">
+    <div class="small-2 columns">
+      <%= f.label :authors_ru, :class => 'right inline'  %>
+    </div>
+    <div class="small-4 columns">
+      <%= f.text_area :authors_ru %>
+    </div>
+    <div class="small-2 columns">
+      <%= f.label :authors_en, :class => 'right inline'  %>
+    </div>
+    <div class="small-4 columns">
+      <%= f.text_area :authors_en %>
+    </div>
   </div>
-  <div class="field">
-    <%= f.label :authors_ru %><br>
-    <%= f.text_area :authors_ru %>
+  <div class="row">
+    <div class="small-2 columns">
+      <%= f.label :keywords_ru, :class => 'right inline'  %>
+    </div>
+    <div class="small-4 columns">
+      <%= f.text_area :keywords_ru %>
+    </div>
+    <div class="small-2 columns">
+      <%= f.label :keywords_en, :class => 'right inline'  %>
+    </div>
+    <div class="small-4 columns">
+      <%= f.text_area :keywords_en %>
+    </div>
   </div>
-  <div class="field">
-    <%= f.label :authors_en %><br>
-    <%= f.text_area :authors_en %>
-  </div>
-  <div class="field">
-    <%= f.label :keywords_ru %><br>
-    <%= f.text_area :keywords_ru %>
-  </div>
-  <div class="field">
-    <%= f.label :keywords_en %><br>
-    <%= f.text_area :keywords_en %>
-  </div>
-  <div class="field">
-    <%= f.label :abstract_ru %><br>
-    <%= f.text_area :abstract_ru %>
-  </div>
-  <div class="field">
-    <%= f.label :abstract_en %><br>
-    <%= f.text_area :abstract_en %>
-  </div>
-  <div class="field">
-    <%= f.label :issue_id %><br>
-    <%= f.number_field :issue_id %>
+  <div class="row">
+    <div class="small-2 columns">
+      <%= f.label :abstract_ru, :class => 'right inline'  %>
+    </div>
+    <div class="small-4 columns">
+      <%= f.text_area :abstract_ru %>
+    </div>
+    <div class="small-2 columns">
+      <%= f.label :abstract_en, :class => 'right inline'  %>
+    </div>
+    <div class="small-4 columns">
+      <%= f.text_area :abstract_en %>
+    </div>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit nil, :class => 'small button' %>
   </div>
 <% end %>
+</div>

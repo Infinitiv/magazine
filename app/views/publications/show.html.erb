@@ -42,8 +42,20 @@
 
 <p>
   <strong>Issue:</strong>
-  <%= @publication.issue_id %>
+  <%= link_to "Год #{@issue.year}, том #{@issue.volume}, номер #{@issue.number}", @issue %>
 </p>
+
+<%= form_for(@attachment, :url => attachments_path, :controller => :publication) do |f| %>
+  <div style="display: none;">
+    <%= text_field_tag :publication_id, @publication.id %>
+  </div>  
+  <div class="filefild">
+    <%= f.file_field :file %>
+  </div>
+  <div class="actions">
+    <%= f.submit 'Прикрепить файл' %>
+  </div>
+<% end %>
 
 <%= link_to 'Edit', edit_issue_publication_path(@issue, @publication) %> |
 <%= link_to 'Back', issue_publications_path(@issue) %>

@@ -10,6 +10,8 @@ class IssuesController < ApplicationController
   # GET /issues/1
   # GET /issues/1.json
   def show
+    @publications = @issue.publications.order(:id)
+    @publication = @issue.publications.new
   end
 
   # GET /issues/new

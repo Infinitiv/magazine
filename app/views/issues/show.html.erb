@@ -1,19 +1,11 @@
 <p id="notice"><%= notice %></p>
+<h1><%= "Год #{@issue.year}, том #{@issue.volume}, номер #{@issue.number}" %></h1>
+<%= render 'publications/form' %>
+<ul>
+  <% @publications.each do |publication| %>
+    <li><%= link_to publication.title_ru, issue_publication_path(@issue, publication) %>
+  <% end %>
+</ul>
 
-<p>
-  <strong>Year:</strong>
-  <%= @issue.year %>
-</p>
-
-<p>
-  <strong>Volume:</strong>
-  <%= @issue.volume %>
-</p>
-
-<p>
-  <strong>Number:</strong>
-  <%= @issue.number %>
-</p>
-
-<%= link_to 'Edit', edit_issue_path(@issue) %> |
-<%= link_to 'Back', issues_path %>
+<%= link_to 'Edit', edit_issue_path(@issue), :class => 'small button' %> |
+<%= link_to 'Back', issues_path, :class => 'small button' %>

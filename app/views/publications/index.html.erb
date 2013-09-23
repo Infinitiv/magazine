@@ -1,10 +1,4 @@
 <h1>Listing publications</h1>
-<%= render 'form' %>
-<ul>
-  <% @publications.each do |publication| %>
-    <li><%= link_to publication.title_ru, issue_publication_path(@issue, publication) %>
-  <% end %>
-</ul>
 <table>
   <thead>
     <tr>

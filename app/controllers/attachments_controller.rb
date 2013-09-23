@@ -22,7 +22,9 @@ class AttachmentsController < ApplicationController
       @attachment = Attachment.new
       @attachment.uploaded_file = params[:attachment]
       @attachment.thumbnail = thumb(@attachment.data, 150) if @attachment.mime_type =~ /image/
-
+      if params[:publication_id]
+	@attachment.publications << Publication.find(params[:publication_id])
+      end
       if @attachment.save
 	  flash[:notice] = "Thank you for your submission..."
 	  redirect_to :back

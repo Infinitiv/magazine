@@ -1,19 +1,18 @@
 class PublicationsController < IssuesController
   before_action :require_editor, only: [:new, :edit, :create, :update, :destroy]
-  before_action :set_issue, only: [:index, :show, :edit, :update, :destroy]
+  before_action :set_issue, only: [:index, :show, :edit, :create, :update, :destroy]
   before_action :set_publication, only: [:show, :edit, :update, :destroy]
   before_action :set_editor_permission, only: [:index, :show]
 
   # GET /publications
   # GET /publications.json
   def index
-    @publications = @issue.publications
-    @publication = @issue.publications.new
   end
 
   # GET /publications/1
   # GET /publications/1.json
   def show
+    @attachment = Attachment.new
   end
 
   # GET /publications/new
@@ -28,11 +27,11 @@ class PublicationsController < IssuesController
   # POST /publications
   # POST /publications.json
   def create
-    @publication = Publication.new(publication_params)
+    @publication = @issue.publications.new(publication_params)
 
     respond_to do |format|
       if @publication.save
-        format.html { redirect_to @publication, notice: 'Publication was successfully created.' }
+        format.html { redirect_to :back, notice: 'Publication was successfully created.' }
         format.json { render action: 'show', status: :created, location: @publication }
       else
         format.html { render action: 'new' }
@@ -46,7 +45,7 @@ class PublicationsController < IssuesController
   def update
     respond_to do |format|
       if @publication.update(publication_params)
-        format.html { redirect_to @publication, notice: 'Publication was successfully updated.' }
+        format.html { redirect_to issue_publication_url(@issue, @publication), notice: 'Publication was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
