@@ -1,7 +1,7 @@
 Magazine::Application.routes.draw do
-  resources :issues
-
-  resources :publications
+  resources :issues do
+    resources :publications
+  end
 
   resources :attachments
 

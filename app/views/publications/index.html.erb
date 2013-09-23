@@ -1,5 +1,10 @@
 <h1>Listing publications</h1>
-
+<%= render 'form' %>
+<ul>
+  <% @publications.each do |publication| %>
+    <li><%= link_to publication.title_ru, issue_publication_path(@issue, publication) %>
+  <% end %>
+</ul>
 <table>
   <thead>
     <tr>
@@ -30,9 +35,9 @@
         <td><%= publication.abstract_ru %></td>
         <td><%= publication.abstract_en %></td>
         <td><%= publication.issue_id %></td>
-        <td><%= link_to 'Show', publication %></td>
-        <td><%= link_to 'Edit', edit_publication_path(publication) %></td>
-        <td><%= link_to 'Destroy', publication, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', issue_publication_path(@issue, publication) %></td>
+        <td><%= link_to 'Edit', edit_issue_publication_path(@issue, publication) %></td>
+        <td><%= link_to 'Destroy', issue_publication_path(@issue, publication), method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -40,4 +45,4 @@
 
 <br>
 
-<%= link_to 'New Publication', new_publication_path %>
+<%= link_to 'New Publication', new_issue_publication_path %>

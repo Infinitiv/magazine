@@ -45,5 +45,5 @@
   <%= @publication.issue_id %>
 </p>
 
-<%= link_to 'Edit', edit_publication_path(@publication) %> |
-<%= link_to 'Back', publications_path %>
+<%= link_to 'Edit', edit_issue_publication_path(@issue, @publication) %> |
+<%= link_to 'Back', issue_publications_path(@issue) %>
