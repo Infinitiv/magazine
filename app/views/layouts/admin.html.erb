@@ -24,13 +24,15 @@
     <nav class="top-bar">
       <ul class="title-area">
 	<li class="name">
-	  <h1><%= link_to 'Вестник ИвГМА', root_path %></h1>
+	  <h1><%= link_to 'ИвГМА', 'http://isma.ivanovo.ru' %></h1>
 	</li>
       </ul>
 
       <section class="top-bar-section">
 	<ul class="left">
 	  <li class="divider"></li>
+    <li><%= link_to 'Выпуски', issues_path %></li>
+    <li class="divider"></li>
 	  <li><%= link_to 'Пользователи', users_path %></li>
 	  <li class="divider"></li>
 	  <li><%= link_to 'Группы', groups_path %></li>
@@ -43,10 +45,9 @@
     </nav>
 
     <div class="row">
-      <div class="small-1 large-1 columns">...</div>
-    </div>
+     <div class="small-12 large-12 columns"><h1>Вестник ИвГМА</h1></div>
     <div class="row">
-      <div class="small-3 large-2 columns">Меню</div>
+      <div class="small-3 large-2 columns">Новости</div>
       <div class="small-9 large-10 columns"><%= yield %></div>
     </div>
     
