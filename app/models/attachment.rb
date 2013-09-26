@@ -10,8 +10,9 @@ class Attachment < ActiveRecord::Base
 	  img.scale!(img.columns > img.rows ? 800 / img.columns.to_f : 800 / img.rows.to_f)
 	  img.write(incoming_file[:file].tempfile.path)
 	end
-        self.data = incoming_file[:file].read
+    self.data = incoming_file[:file].read
 	self.content = pdf2text(incoming_file[:file].tempfile.path) if incoming_file[:file].content_type =~ /pdf/
+    self.content = File.read(incoming_file[:file].tempfile.path) if incoming_file[:file].content_type =~ /xml/
     end
 
     def filename=(new_filename)

@@ -1,0 +1,1611 @@
+﻿<?xml version="1.0" standalone="no" ?>
+  <journals>
+    <opercard>
+      <operator>ГОУ ВПО ИвГМА Росздрава|Бабаскина Е.Г.</operator>
+      <date>2010-11-23_18:36:14</date>
+        <cntArticle>17</cntArticle>
+      <cntnode>676</cntnode>
+      <cs>1115108</cs>
+    </opercard>
+    <journal>
+      <journalInfo lang="RUS">
+        <jrntitle>Вестник Ивановской медицинской академии</jrntitle>
+        <jrntitlevar>Вестник ИвГМА</jrntitlevar>
+        <publ>ГОУ ВПО "Ивановская государственная медицинская академия Росздрава"</publ>
+        <placepubl>Иваново</placepubl>
+        <loc>153012, г.Иваново, пр.Ф.Энгельса, д.8</loc>
+      </journalInfo>
+      <journalInfo lang="ENG">
+        <jrntitle>VESTNIK IVANOVSKOJ MEDICINSKOJ AKADEMII
+BULLETIN OF THE IVANOVO MEDICAL ACADEMY</jrntitle>
+        <publ>The Ivanovo State Medical Academy</publ>
+        <placepubl>Ivanovo</placepubl>
+        <loc>8 Engels avenue Ivanovo 153012 Russia</loc>
+      </journalInfo>
+      <issue>
+        <issn>1606-8157</issn>
+        <jrncode>16068157</jrncode>
+        <jvolUni>15</jvolUni>
+        <jnumUni>3</jnumUni>
+        <jdateUni>2010</jdateUni>
+        <pages>5-74</pages>
+        <jseparate>
+          <segtitle lang="RUS">Организация здравоохранения</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>5</fpageart>
+          <lpageart>9</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Руженская</surname>
+                <fname>Е.В.</fname>
+                <auadr>153506, Ивановская область, с. Богородское, ул. Б. Клинцевская, д. 2а</auadr>
+                <auemail>elena37r@yandex.ru</auemail>
+                <auwork>ГУЗ ОКПБ «Богородское»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Ruzhenskaya</surname>
+                <fname>E.V.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">УДОВЛЕТВОРЕННОСТЬ СОТРУДНИКОВ ПСИХИАТРИЧЕСКОЙ СЛУЖБЫ СВОЕЙ ПРОФЕССИОНАЛЬНОЙ ДЕЯТЕЛЬНОСТЬЮ</arttitle>
+            <arttitle lang="ENG">CONTENTMENT OF PSYCHIATRIC SERVICE MEDICAL PERSONNEL WITH THEIR PROFESSIONAL ACTIVITIES</arttitle>
+          </arttitles>
+          <abstracts>
+            <abstract lang="RUS">Удовлетворенность профессиональной деятельностью определялась по результатам опроса, основанного на оценке медицинским персоналом психиатрической службы нескольких факторов, объединенных в три группы: определяющие общую мотивацию профессиональной деятельности (значимость и престижность профессии, вид трудовой деятельности), определяющие организационную составляющую трудового процесса (организация труда, санитарно-гигиенические условия, размер заработной платы, возможность повышения квалификации, отношение администрации), определяющие личные предпочтения (взаимоотношения с коллегами, удовлетворение потребности в общении и коллективной деятельности, удовлетворение потребности в реализации индивидуальных особенностей, возможность творчества). Сравнивались данные, полученные при опросе разных профессиональных групп (врачей и медсестер).</abstract>
+            <abstract lang="ENG">Contentment with professional activities was determined upon the results of the questionnaire which was based upon the evaluation of several factors by psychiatric service medical personnel. These factors were combined in three groups as follows: determining general motivation of professional activities (importance and prestige of the profession, kind of professional activities), determining organizational constituent part of labor process (labor organization, sanitary and hygienic conditions, wages rate, possibility of qualification improvement, administration attitude) and determining personal preferences (colleagues interrelationship, meeting the requirements in contacts and collective activities, meeting the requirements in personal peculiarities realization, creative possibilities). Data obtained after questionnaire of various professional groups (psychiatrists and nurses) were compared.</abstract>
+          </abstracts>
+          <arttype>RAR</arttype>
+          <text lang="RUS" arttype="RAR">УДОВЛЕТВОРЕННОСТЬ СОТРУДНИКОВ ПСИХИАТРИЧЕСКОЙ СЛУЖБЫ СВОЕЙ ПРОФЕССИОНАЛЬНОЙ ДЕЯТЕЛЬНОСТЬЮ
+
+           Удовлетворенность профессиональной деятельностью определялась по результатам опроса, основанного на оценке медицинским персоналом психиатрической службы нескольких факторов, объединенных в три группы: определяющие общую мотивацию профессиональной деятельности (значимость и престижность профессии, вид трудовой деятельности), определяющие организационную составляющую трудового процесса (организация труда, санитарно-гигиенические условия, размер заработной платы, возможность повышения квалификации, отношение администрации), определяющие личные предпочтения (взаимоотношения с коллегами, удовлетворение потребности в общении и коллективной деятельности, удовлетворение потребности в реализации индивидуальных особенностей, возможность творчества). Сравнивались данные, полученные при опросе разных профессиональных групп (врачей и медсестер).
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>удовлетворенность трудом</keyword>
+              <keyword>медицинский персонал</keyword>
+              <keyword>психиатрическая служба</keyword>
+              <keyword>самооценка</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>contentment with labor</keyword>
+              <keyword>medical personnel</keyword>
+              <keyword>psychiatric service</keyword>
+              <keyword>self-evaluation</keyword>
+            </kwdGroup>
+          </keywords>
+          <biblist>
+              <blistpart>Бадоев Т. Л. Динамика структуры мотивов трудовой деятельности: автореф. дис. … канд. мед. наук. - Ярославль, 1988. - 24 с.
+
+              </blistpart>
+              <blistpart>Практикум по дифференциальной психодиагностике профессиональной пригодности: учеб. пособие / под общ. ред. В. А. Бодрова. - М. : ПЕР СЭ, 2003. -  768 с. (Современное образование).
+
+              </blistpart>
+              <blistpart>Собчик Л. Н. Психодиагностика в профориентации и кадровом отборе. - СПб. : Речь, 2002. - 72 с.
+
+              </blistpart>
+          </biblist>
+            <fpdf>Руженская.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Организация здравоохранения</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>10</fpageart>
+          <lpageart>13</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Баклушина</surname>
+                <fname>Е.К.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, 8</auadr>
+                <auemail>тел. (4932) 30-76-56</auemail>
+                <auwork>ГОУ ВПО «Ивановская государственная академия Росздрава»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Baklushina</surname>
+                <fname>E.K.</fname>
+              </individInfo>
+            </author>
+            <author num="2">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Мигель</surname>
+                <fname>М.С.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, 8</auadr>
+                <auwork>ГОУ ВПО «Ивановская государственная академия Росздрава»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Miguel</surname>
+                <fname>M.S.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">СОВРЕМЕННАЯ ХАРАКТЕРИСТИКА ОБРАЗА ЖИЗНИ ПАЦИЕНТОВ С МОЧЕКАМЕННОЙ БОЛЕЗНЬЮ</arttitle>
+            <arttitle lang="ENG">CURRENT CHARACTERISTICS OF THE MODE OF LIFE IN PATIENTS WITH UROLITHIASIS</arttitle>
+          </arttitles>
+          <abstracts>
+            <abstract lang="RUS">Исследован образ жизни пациентов с мочекаменной болезнью. Выявлена высокая частота неблагоприятных факторов у большинства опрошенных. Установлено, что возникновение заболевания не является мотивацией к изменению образа жизни. Это обусловливает необходимость разработки в медицинских организациях комплекса мероприятий, направленных на оздоровление пациентов с мочекаменной болезнью.</abstract>
+            <abstract lang="ENG">Authors presented the data obtained after examination of the mode of life in patients with urolithiasis. High frequency of the factors of non-healthy mode of life in the majority of the examined persons was revealed. It was determined that the onset of the disease was not the motivation to their mode of life sanitation. It stipulated the necessity to develop measures' complex in medical organizations and this complex had to be directed to the sanitation of the mode of life in patients with urolithiasis.</abstract>
+          </abstracts>
+          <arttype>RAR</arttype>
+          <text lang="RUS" arttype="RAR">СОВРЕМЕННАЯ ХАРАКТЕРИСТИКА ОБРАЗА ЖИЗНИ ПАЦИЕНТОВ С МОЧЕКАМЕННОЙ БОЛЕЗНЬЮ
+
+           Исследован образ жизни пациентов с мочекаменной болезнью. Выявлена высокая частота неблагоприятных факторов у большинства опрошенных. Установлено, что возникновение заболевания не является мотивацией к изменению образа жизни. Это обусловливает необходимость разработки в медицинских организациях комплекса мероприятий, направленных на оздоровление пациентов с мочекаменной болезнью.
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>мочекаменная болезнь</keyword>
+              <keyword>образ жизни</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>patients with urolithiasis</keyword>
+              <keyword>characteristics of the mode of life</keyword>
+            </kwdGroup>
+          </keywords>
+          <biblist>
+              <blistpart>Вайнберг З. С. Клиническая урология для врача поликлиники. - М. : Медпрактика, 2000. - С. 86-89.
+
+              </blistpart>
+              <blistpart>Колпаков И. С. Мочекаменная болезнь : учеб. пособие. - М. : Академия, 2006. - 224 с.
+
+              </blistpart>
+              <blistpart>Лифляндский В. Г. Лечебные свойства пищевых продуктов. - М. : Терра, 1996.
+
+              </blistpart>
+              <blistpart>Лопаткина Н. А., Перепанова Т. С. Схемы лечения: урология. - М. : Литера, 2006. - С. 33-43.
+
+              </blistpart>
+          </biblist>
+            <fpdf>Баклушина.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Организация здравоохранения</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>14</fpageart>
+          <lpageart>18</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Останина</surname>
+                <fname>Е.А.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auwork>ГОУ ВПО «Ивановская государственная медицинская академия Росздрава»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Ostanina</surname>
+                <fname>E.A.</fname>
+              </individInfo>
+            </author>
+            <author num="2">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Иванов</surname>
+                <fname>С.К.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auwork>ГОУ ВПО «Ивановская государственная медицинская академия Росздрава»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Ivanov</surname>
+                <fname>S.K.</fname>
+              </individInfo>
+            </author>
+            <author num="3">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Баклушин</surname>
+                <fname>А.Е.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auemail>clinic@isma.ivanovo.ru
+(4932) 30-76-47</auemail>
+                <auwork>ГОУ ВПО «Ивановская государственная медицинская академия Росздрава»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Baklushin</surname>
+                <fname>A.E.</fname>
+              </individInfo>
+            </author>
+            <author num="4">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Лихова</surname>
+                <fname>И.Н.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auwork>ГОУ ВПО «Ивановская государственная медицинская академия Росздрава»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Likhova</surname>
+                <fname>I.N.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">ЭПИДЕМИОЛОГИЧЕСКИЕ И СОЦИАЛЬНО-ГИГИЕНИЧЕСКИЕ АСПЕКТЫ ПНЕВМОНИЙ У ДЕТЕЙ</arttitle>
+            <arttitle lang="ENG">PNEUMONIA IN CHILDREN: EPIDEMIOLOGIC, SOCIAL AND HYGIENIC ASPECTS</arttitle>
+          </arttitles>
+          <abstracts>
+            <abstract lang="RUS">Проведенное исследование подтвердило, что осложненные формы пневмоний характерны для детей первого года жизни, чему способствуют многие факторы, в том числе наличие неблагоприятных составляющих образа жизни. Развитие осложнений пневмонии у детей наблюдалось преимущественно в семьях, имеющих низкий образовательный уровень, в неполных семьях.</abstract>
+            <abstract lang="ENG">After the examination performed it was confirmed that the complicated forms of pneumonia were predominantly typical for the children of first year of life. Many factors including the presence of unfavorable constituent parts of their mode of life were conducive to it. Complicated pneumonia in children was observed mostly in families with low educational level and in families with only one parent.</abstract>
+          </abstracts>
+          <arttype>RAR</arttype>
+          <text lang="RUS" arttype="RAR">ЭПИДЕМИОЛОГИЧЕСКИЕ И СОЦИАЛЬНО-ГИГИЕНИЧЕСКИЕ АСПЕКТЫ ПНЕВМОНИЙ У ДЕТЕЙ
+
+           Проведенное исследование подтвердило, что осложненные формы пневмоний характерны для детей первого года жизни, чему способствуют многие факторы, в том числе наличие неблагоприятных составляющих образа жизни. Развитие осложнений пневмонии у детей наблюдалось преимущественно в семьях, имеющих низкий образовательный уровень, в неполных семьях.
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>пневмония</keyword>
+              <keyword>осложнения</keyword>
+              <keyword>дети</keyword>
+              <keyword>социально-гигиенические</keyword>
+              <keyword>эпидемиологические аспекты</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>pneumonia</keyword>
+              <keyword>complications</keyword>
+              <keyword>children</keyword>
+              <keyword>social and hygienic aspects</keyword>
+              <keyword>epidemiologic aspects</keyword>
+            </kwdGroup>
+          </keywords>
+          <biblist>
+              <blistpart>Баранов А. А., Шиляев Р. Р., Чемоданов В. В., Рывкин А. И. Болезни детей раннего возраста : рук-во для врачей. - М.; Иваново, 1996. - 308 с.
+
+              </blistpart>
+              <blistpart>Барашнев Ю. И., Антонова А. Г., Кудашов Н. И. Перинатальная патология у новорожденных // Акушерство и гинекология. - 1994. - № 4. - С. 26-31.
+
+              </blistpart>
+              <blistpart>Геппе Н. А., Розинова Н. Н., Волков И. К., Мизерницкий Ю. Л. Рабочая классификация основных клинических форм бронхолегочных заболеваний у детей // Трудный пациент. - 2009. - № 1. - С. 35-39.
+
+              </blistpart>
+              <blistpart>Классификация клинических форм бронхолегочных заболеваний у детей. - М., 2009.
+
+              </blistpart>
+              <blistpart>Клинические рекомендации. Педиатрия / под ред. А. А. Баранова. - 2-е изд. - М. : ГЭОТАР-Медиа, 2009. - 432 с.
+
+              </blistpart>
+              <blistpart>Рывкин А. И., Побединская Н. С. Болезни органов дыхания в практике педиатра : рук-во для врачей в 2 ч. - Ч. 2. - Иваново, 2003. - 248 с.
+
+              </blistpart>
+              <blistpart>Справочно-информационные материалы службы охраны здоровья матери и ребенка. - М. : Минздравсоцразвития, 2006.
+
+              </blistpart>
+              <blistpart>Таточенко В. К., Дорохова Н. Ф., Шмакова С. Г. Экологические факторы и болезни органов дыхания у детей // Экология и здоровье детей / под ред. М. Я. Студеникина, А. А. Ефимовой. - М. : Медицина, 1998. - С. 247-272.
+
+              </blistpart>
+              <blistpart>Таточенко В. К., Катосова Л. К., Фёдоров А. М. Этиологический спектр пневмонии у детей // Пульмонология. - 1997. - № 2. - С. 29-35.
+
+              </blistpart>
+          </biblist>
+            <fpdf>Останина.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Вопросы общей патологии</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>19</fpageart>
+          <lpageart>23</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Кузнецов</surname>
+                <fname>О.Ю.</fname>
+                <auadr>153012, Иваново, 
+просп. Ф. Энгельса, д. 8</auadr>
+                <auemail>тел.: (4932) 32-73-90</auemail>
+                <auwork>ГОУВПО «Ивановская государственная медицинская академия Росздрава»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Kuznetsov</surname>
+                <fname>O.Yu.</fname>
+              </individInfo>
+            </author>
+            <author num="2">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Милькова</surname>
+                <fname>Е.В.</fname>
+                <auadr>156005, Кострома, ул. Советская, д. 77</auadr>
+                <auwork>МУЗ «Первая городская больница»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Milkova</surname>
+                <fname>E.V.</fname>
+              </individInfo>
+            </author>
+            <author num="3">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Соснина</surname>
+                <fname>А.Е.</fname>
+                <auadr>153035, Иваново, ул. Лежневская, д. 114</auadr>
+                <auwork>ООО «ЛДЦ МИЛЕНАРИС»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Sosnina</surname>
+                <fname>A.E.</fname>
+              </individInfo>
+            </author>
+            <author num="4">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Баланцева</surname>
+                <fname>Е.В.</fname>
+                <auadr>153045, Иваново, ул. Академическая, д. 1</auadr>
+                <auwork>Институт химии растворов РАН</auwork>
+                <auinf>кандидат химических наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Balantseva</surname>
+                <fname>E.V.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">АНТИМИКРОБНАЯ АКТИВНОСТЬ И СТАБИЛЬНОСТЬ СОКА ГРИБА 
+ШИИТАКЕ (LENTINUS EDODES) ПРИ ДЛИТЕЛЬНОМ ХРАНЕНИИ</arttitle>
+            <arttitle lang="ENG">ANTIMICROBIAL ACTIVITY OF LENTINUS EDODES SUCCUS IN PROLONGED CONSERVATION</arttitle>
+          </arttitles>
+          <abstracts>
+            <abstract lang="RUS">Определена устойчивость сока высшего гриба шиитаке (Lentinus edodes), а также его антимикробная активность при длительном хранении. Основываясь на полученных данных, можно констатировать, что сок данного гриба - это перспективная лекарственная форма, обладающая избирательной активностью в отношении патогенных и условно-патогенных бактерий из состава микрофлоры человека.</abstract>
+            <abstract lang="ENG">Authors determined the stability of Lentinus edodes succus and its antimicrobial activity in prolonged conservation. The obtained results allowed to ascertain the fact that the succus of this fungus was the perspective medicinal form which had selective activity with respect to pathogenic and relatively pathogenic bacteria of human microflora structure.</abstract>
+          </abstracts>
+          <arttype>RAR</arttype>
+          <text lang="RUS" arttype="RAR">АНТИМИКРОБНАЯ АКТИВНОСТЬ И СТАБИЛЬНОСТЬ СОКА ГРИБА 
+ШИИТАКЕ (LENTINUS EDODES) ПРИ ДЛИТЕЛЬНОМ ХРАНЕНИИ
+
+           Определена устойчивость сока высшего гриба шиитаке (Lentinus edodes), а также его антимикробная активность при длительном хранении. Основываясь на полученных данных, можно констатировать, что сок данного гриба - это перспективная лекарственная форма, обладающая избирательной активностью в отношении патогенных и условно-патогенных бактерий из состава микрофлоры человека.
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>гриб шиитаке (Lentinus edodes)</keyword>
+              <keyword>антимикробное действие</keyword>
+              <keyword>патогенные и условно-патогенные микроорганизмы</keyword>
+              <keyword>индигенная микрофлора</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>Lentinus edodes</keyword>
+              <keyword>antimicrobial activity</keyword>
+              <keyword>pathogenic and relatively pathogenic microorganisms</keyword>
+              <keyword>indigenic microflora</keyword>
+            </kwdGroup>
+          </keywords>
+          <biblist>
+              <blistpart>Пат. 38528 РФ МПК7 А 61 К 35/74. Емкость для выращивания мицелия высших грибов и их плодовых тел.
+
+              </blistpart>
+              <blistpart>Пат. № 2174842 РФ МПК7 А 01 G 1/04. Способ получения препарата-эубиотика колибактерин.
+
+              </blistpart>
+              <blistpart>Kurashige S., Akuzawa Y., Endo F. Effects of Lentinus edodes administration on cancer outbreak // Journal Immunology. - 1997. - № 19 (2). Р. 175-183.
+
+              </blistpart>
+              <blistpart>Suzuki H., Iryama K., Yoshida O., Yamazaki S., Yamamoto N., Toda S. Structural characterization of the immunoactive and antiviral water-solubilized lignin in an extract of the culture medium of Lentinus edodes mycelia (LEM) // Agric. Biol. Chemistry. - 1990. - 
+№ 54(2). Р. 479-487.
+
+              </blistpart>
+              <blistpart>Yamamoto Y., Shirono H., Kono K., Ohashi Y. Immunopotentive activity of the water-soluble lignin rich fraction prepared from LEM - the extract of the solid culture medium of Lentinus edodes mycelia // Biotechnology Biochemistry. - 1997. - № 61 (11). -  Р. 1909-1912. 
+
+              </blistpart>
+          </biblist>
+            <fpdf>Кузнецов.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Вопросы общей патологии</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>24</fpageart>
+          <lpageart>28</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Панченко</surname>
+                <fname>К.И.</fname>
+                <auadr>150000, Ярославль, ул. Революционная, д. 5</auadr>
+                <auwork>ГОУ ВПО «Ярославская государственная медицинская академия Росздрава»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Panchenko</surname>
+                <fname>K.I.</fname>
+              </individInfo>
+            </author>
+            <author num="2">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Борбат</surname>
+                <fname>А.М.</fname>
+                <auadr>150000, Ярославль, ул. Революционная, д. 5</auadr>
+                <auemail>aborbat@yandex.ru</auemail>
+                <auwork>ГОУ ВПО «Ярославская государственная медицинская академия Росздрава»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Borbat</surname>
+                <fname>A.M.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">ВОЗМОЖНОСТИ ПРОГНОЗИРОВАНИЯ РЕЗУЛЬТАТОВ БАЗИСНОЙ ТЕРАПИИ РЕВМАТОИДНОГО АРТРИТА ПОСРЕДСТВОМ ИЗУЧЕНИЯ КОЛОНОБИОПТАТОВ</arttitle>
+            <arttitle lang="ENG">OUTCOME OF BASIC THERAPY FOR RHEUMATOID ARTHRITIS: POSSIBILITIES OF PROGNOSIS BY COLONOBIOPTATES EXAMINATION MEANS</arttitle>
+          </arttitles>
+          <abstracts>
+            <abstract lang="RUS">Изучены ректобиоптаты 43 больных ревматоидным артритом до начала базисной терапии метотрексатом или сульфопрепаратом. Через 1 год результаты лечения оценивались как «улучшение» или «без улучшения» на основании критериев ACR. Посредством дискриминантного анализа выделены 5 групп: получавших метотрексат с улучшением состояния здоровья или без такового, получавших сульфопрепарат с улучшением или без, без улучшения состояния здоровья с особо быстрым прогрессированием независимо от приема препарата. Наибольший вклад в дискриминацию внесли комплексный показатель, отражающий стадию суставных поражений, наличие системных проявлений и гормонозависимости, и признаки, характеризующие лимфоэпителиальные взаимоотношения в слизистой оболочке толстой кишки (диаметр лимфатических фолликулов, показатели митотического режима эпителия, инфильтрация малакоплакиеподобными макрофагами). Таким образом, продемонстрирована возможность прогнозирования результата базисной терапии с помощью совокупной оценки клинической характеристики заболевания и структуры лимфоидной ткани и эпителия прямой кишки.</abstract>
+            <abstract lang="ENG">Rectobioptates in 43 patients with rheumatoid arthritis before the beginning of basic therapy with metotrexate or sulfa drug were examined. In 1 year the results of the treatment were evaluated as "improvement" or "without improvement" by ACR criterion. 5 groups were singled out by discriminate analysis: taking metotrexate with the improvement in health status or without the same, taking sulfa drug with the improvement or without the same, without the improvement in health status with extremely quick progression irrespective of the preparation taking. The most contribution to the discrimination was made by the complex index which reflected the stage of joint injures, the presence of systemic manifestations and hormone dependence and the signs which characterized lymphoepithelial interrelations in rectum mucous cover (lymphatic follicles diameter, epithelial mitotic regimen indices, infiltration by malacoplakia-like macrophages). Therefore it was demonstrated the possibility to make prognosis of the outcome of basic therapy in dependence on the total evaluation of the clinical characteristics of the disease and that of the structure of the lymphoid tissue and rectum epithelium.</abstract>
+          </abstracts>
+          <arttype>RAR</arttype>
+          <text lang="RUS" arttype="RAR">ВОЗМОЖНОСТИ ПРОГНОЗИРОВАНИЯ РЕЗУЛЬТАТОВ БАЗИСНОЙ ТЕРАПИИ РЕВМАТОИДНОГО АРТРИТА ПОСРЕДСТВОМ ИЗУЧЕНИЯ КОЛОНОБИОПТАТОВ
+
+           Изучены ректобиоптаты 43 больных ревматоидным артритом до начала базисной терапии метотрексатом или сульфопрепаратом. Через 1 год результаты лечения оценивались как «улучшение» или «без улучшения» на основании критериев ACR. Посредством дискриминантного анализа выделены 5 групп: получавших метотрексат с улучшением состояния здоровья или без такового, получавших сульфопрепарат с улучшением или без, без улучшения состояния здоровья с особо быстрым прогрессированием независимо от приема препарата. Наибольший вклад в дискриминацию внесли комплексный показатель, отражающий стадию суставных поражений, наличие системных проявлений и гормонозависимости, и признаки, характеризующие лимфоэпителиальные взаимоотношения в слизистой оболочке толстой кишки (диаметр лимфатических фолликулов, показатели митотического режима эпителия, инфильтрация малакоплакиеподобными макрофагами). Таким образом, продемонстрирована возможность прогнозирования результата базисной терапии с помощью совокупной оценки клинической характеристики заболевания и структуры лимфоидной ткани и эпителия прямой кишки.
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>ревматоидный артрит</keyword>
+              <keyword>прогнозирование</keyword>
+              <keyword>результат базисной терапии</keyword>
+              <keyword>колонобиоптат</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>rheumatoid arthritis</keyword>
+              <keyword>prognosis of basic therapy</keyword>
+              <keyword>colonobioptate</keyword>
+            </kwdGroup>
+          </keywords>
+          <biblist>
+              <blistpart>Насонов Е. Л. 50 лет применения метотрексата в ревматологии // Русский мед. журн. - 2005. - № 9. -  С. 372-377.
+
+              </blistpart>
+              <blistpart>Отто В., Астапенко М. Г., Трофимова Т. М. Усовершенствование и апробация критериев диагностики активности процесса при ревматоидном артрите // Вопр. ревматологии. - 1975. - № 3. - С. 18-22.
+
+              </blistpart>
+              <blistpart>Панченко К. И., Виноградов Ю. Н., Фризен Б. Н. Биопсия прямой кишки как метод, определяющий базисную терапию при ревматоидном артрите // Сборник тезисов I съезда Международного союза ассоциаций патологоанатомов. - М., 1995. - С. 118-119.
+
+              </blistpart>
+              <blistpart>Фоломеева О. М., Эрдес Ш. Ф. Инвалидность взрослого населения России, обусловленная ревматическими заболеваниями // Русский мед. журн. -  2007. - № 26. - С. 1946-1951.
+
+              </blistpart>
+              <blistpart>Фризен Б. Н., Панченко К. И., Виноградов Ю. Н. Влияние базисной терапии на морфологическую картину слизистой оболочки прямой кишки у больных ревматоидным артритом // Терапевт. арх. - 1995. - № 11. -  С. 76-80.
+
+              </blistpart>
+              <blistpart>Bresnihan B. Are synovial biopsies of diagnostic value? // Arthritis Research &amp; Therapy. - 2003. - № 5. - Р. 271-278.
+
+              </blistpart>
+              <blistpart>Gossec L. et al. Prognostic factors for remission in early rheumatoid arthritis: a multiparameter prospective study // Annals of the rheumatic diseases. - 2004. - № 63. -  Р. 675-680.
+
+              </blistpart>
+              <blistpart>Kingsley G. H., Choy E. H., Scott D. L. Differences in disease expression and response to treatment between older and younger adults with rheumatoid arthritis // Rheumatology. - 2006. - № 46. - Р. 105.
+
+              </blistpart>
+              <blistpart>Lindqvist E. Prognostic laboratory markers of joint damage in rheumatoid arthritis // Annals of the rheumatic diseases. - 2005. - № 64. - p. 196-201.
+
+              </blistpart>
+              <blistpart>Smolen J. S. The need for prognosticators in rheuma-toid arthritis. Biological and clinical markers: where are we now? // Arthritis Research &amp; Therapy. -  2008. - № 10. - Р. 208.
+
+              </blistpart>
+          </biblist>
+            <fpdf>Панченко.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Клиническая медицина</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>29</fpageart>
+          <lpageart>33</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Кубачев</surname>
+                <fname>К.Г.</fname>
+                <auadr>193045, г. Санкт-Петербург, ул. Кирочная, д. 41</auadr>
+                <auwork>ГОУДПО «Санкт-Петербургская медицинская академия 
+последипломного образования Росздрава»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Kubachev</surname>
+                <fname>K.G.</fname>
+              </individInfo>
+            </author>
+            <author num="2">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Абдуллаев</surname>
+                <fname>Э.Г.</fname>
+                <auadr>600017, г. Владимир, ул. Горького, д. 5</auadr>
+                <auwork>ГОУВПО «Ивановская государственная медицинская 
+академия Росздрава»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Abdullaev</surname>
+                <fname>E.G.</fname>
+              </individInfo>
+            </author>
+            <author num="3">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Ризаханов</surname>
+                <fname>Д.М.</fname>
+                <auadr>193045, г. Санкт-Петербург, ул. Кирочная, д. 41</auadr>
+                <auwork>ГОУДПО «Санкт-Петербургская медицинская академия 
+последипломного образования Росздрава»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Rizakhanov</surname>
+                <fname>D.M.</fname>
+              </individInfo>
+            </author>
+            <author num="4">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Качабеков</surname>
+                <fname>М.С.</fname>
+                <auadr>600017, г. Владимир, ул. Горького, д. 5</auadr>
+                <auwork>ГОУВПО «Ивановская государственная медицинская 
+академия Росздрава»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Kachabekov</surname>
+                <fname>M.S.</fname>
+              </individInfo>
+            </author>
+            <author num="5">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Абдуллаев</surname>
+                <fname>А.Э.</fname>
+                <auadr>600017, г. Владимир, ул. Горького, д. 5</auadr>
+                <auemail>elbrus58@rambler.ru</auemail>
+                <auwork>ГОУВПО «Ивановская государственная медицинская 
+академия Росздрава»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Abdullaev</surname>
+                <fname>A.E.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">КАЧЕСТВО ЖИЗНИ БОЛЬНЫХ С ПИЩЕВОДНО-ЖЕЛУДОЧНЫМИ 
+КРОВОТЕЧЕНИЯМИ ПОРТАЛЬНОГО ГЕНЕЗА 
+ИЗ ВАРИКОЗНО РАСШИРЕННЫХ ВЕН</arttitle>
+            <arttitle lang="ENG">QUALITY OF LIFE IN PATIENTS WITH GASTRO-INTESTINAL HEMORRAGE OF PORTAL GENESIS FROM VARICOSLY DILATED VEINS</arttitle>
+          </arttitles>
+          <abstracts>
+            <abstract lang="RUS">Исследована эффективность применения эндоскопических методов гемостаза при острых пищеводно-желудочных кровотечениях портального генеза. Изучены показатели выживаемости и средней продолжительности жизни 244 пациентов, которые были разделены на две группы - основную и сравнения. Установлено значительное улучшение показателей выживаемости и средней продолжительности жизни пациентов основной группы, где для гемостаза были применены эндоскопические методы. Доказано, что пациенты основной группы отличались более высоким уровнем качества жизни в отдаленных периодах наблюдения, дольше сохраняли трудоспособность, физическую активность и возможность самообслуживания.</abstract>
+            <abstract lang="ENG">The article is devoted to the analysis of the efficacy of hemostasis endoscopic methods in acute gastro-intestinal hemorrage of portal genesis. The indices of survival and average life duration were studied in 244 patients which were divided into two groups: basic and comparative. It was stated the significant improvement of the indices of survival and average life duration in patients of the basic group, where endoscopic methods were used for hemostasis. It was proved that the patients of the basic group differed by higher level of the quality of life in follow-up examinations, longer keeping physical activity and the ability to work and self-service.</abstract>
+          </abstracts>
+          <arttype>RAR</arttype>
+          <text lang="RUS" arttype="RAR">КАЧЕСТВО ЖИЗНИ БОЛЬНЫХ С ПИЩЕВОДНО-ЖЕЛУДОЧНЫМИ 
+КРОВОТЕЧЕНИЯМИ ПОРТАЛЬНОГО ГЕНЕЗА 
+ИЗ ВАРИКОЗНО РАСШИРЕННЫХ ВЕН
+
+           Исследована эффективность применения эндоскопических методов гемостаза при острых пищеводно-желудочных кровотечениях портального генеза. Изучены показатели выживаемости и средней продолжительности жизни 244 пациентов, которые были разделены на две группы - основную и сравнения. Установлено значительное улучшение показателей выживаемости и средней продолжительности жизни пациентов основной группы, где для гемостаза были применены эндоскопические методы. Доказано, что пациенты основной группы отличались более высоким уровнем качества жизни в отдаленных периодах наблюдения, дольше сохраняли трудоспособность, физическую активность и возможность самообслуживания.
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>варикозно расширенные вены пищевода</keyword>
+              <keyword>цирроз печени</keyword>
+              <keyword>эндоскопический гемостаз</keyword>
+              <keyword>желудочно-кишечное кровотечение</keyword>
+              <keyword>портальная гипертензия</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>varicose dilatation of esophagus veins</keyword>
+              <keyword>hepatocirrosis</keyword>
+              <keyword>endoscopic hemostasis</keyword>
+              <keyword>gastrointestinal hemorrage</keyword>
+              <keyword>portal hypertension</keyword>
+            </kwdGroup>
+          </keywords>
+          <biblist>
+              <blistpart>Ибронов Ш. М. Отдаленные результаты эндоваскулярных вмешательств у больных циррозом печени: дис. … канд. мед. наук. - СПб., 2001.
+
+              </blistpart>
+              <blistpart>Романова Н. В. Клинико-лабораторные особенности, психологические аспекты личности и уровень качества жизни у пациентов с печеночной энцефалопатией на фоне хронических заболеваний печени: автореф. дис. ... канд. мед. наук. - СПб., 2007. -  С. 2-3.
+
+              </blistpart>
+              <blistpart>Amodio P., Montagnese S., Gatta A., Morgan M. Y. Characteristics of minimal hepatic encephalopathy // Metab. Brain Dis. - 2004. - Vol. 19, № 3-4. -  P. 253-267.
+
+              </blistpart>
+              <blistpart>Bondini S., Kallman J., Dan A., Younoszai Z., Ramsey L., Nader F., Younossi Z.M. Health-related quality of life  in patients with chronic hepatitis B // Liver Int. - 2007. -  Vol. 27, № 8. - P. 1119-1125.
+
+              </blistpart>
+              <blistpart>Dan A. A., Kallman J. B., Wheeler A., Younoszai Z., Col-lantes R., Bondini S., Gerber L., Younossi Z. M. Health-related quality of life in patients with non-alcoholic fatty liver disease // Aliment. Pharmacol. Ther. - 2007. -  Vol. 26, № 6. - P. 815-820.
+
+              </blistpart>
+              <blistpart>Friendlander A.H., Ettinger R.L. Karnofsky performance status scale // Spec. Care Dentist. - 2009. - № 29 (4). -  Р. 147-148.
+
+              </blistpart>
+              <blistpart>Lee E. H., Cheong J. Y., Cho S. W., Hahm K. B., Kim H. Y., Park J. J., Lee D. H., Kim S. K., Choi S. R., Lee S. T., Moon S. M. Development and psychometric evaluation  of a chronic liver disease-specific quality of life question-naire // J. Gastroenterol. Hepatol. - 2007. - № 7. - P. 23.
+
+              </blistpart>
+              <blistpart>Levy A. R., Kowdley K. V., Iloeje U., Tafesse E., Mukhe-rjee J., Gish R., Bzowe J. N., Briggs A. H. The impact of chronic hepatitis B on quality of life: a multinational study of utilities from infected and uninfected persons // Value Health. - 2007. - № 12. - P. 17.
+
+              </blistpart>
+              <blistpart>Selmi C., Gershwin M. E., Lindor K. D., Worman H. J., Gold E. B., Watnik M., Utts J., Invernizzi P., Kaplan M. M., Vierling J. M., Bowlus C. L., Silveira M. G., Bossi I. USA Epidemiology Group Quality of life and everyday activities in patients with primary biliary cirrhosis // Hepatology. - 2007. - Vol. 46, № 6. - P. 1836-1843.
+
+              </blistpart>
+              <blistpart>Stewart C. A, Smith G. E. Minimal hepatic encephalo-pathy // Nat. Clin. Pract. Gastroenterol. Hepatol. - 2007. -  Vol. 4, № 12. - P. 677-685.
+
+              </blistpart>
+          </biblist>
+            <fpdf>Абдуллаев.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Клиническая медицина</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>34</fpageart>
+          <lpageart>39</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Бобошко</surname>
+                <fname>И.Е.</fname>
+                <auadr>153012, Иваново, 
+просп. Ф.Энгельса, д. 8</auadr>
+                <auemail>evs-optimum@mail.ru</auemail>
+                <auwork>ГОУ ВПО «Ивановская государственная медицинская академия Росздрава»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Boboshko</surname>
+                <fname>I.E.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">ДИФФЕРЕНЦИРОВАННЫЙ ПОДХОД К МЕДИКО-СОЦИАЛЬНОМУ 
+СОПРОВОЖДЕНИЮ ДЕТЕЙ РАЗНЫХ КОНСТИТУЦИОНАЛЬНЫХ ТИПОВ 
+В УЧРЕЖДЕНИЯХ ЗДРАВООХРАНЕНИЯ И ОБРАЗОВАНИЯ</arttitle>
+            <arttitle lang="ENG">DIFFERENTIATED APPROACH TO MEDICAL SOCIAL PEDIATRIC ACCOMPANIMENT IN CHILDREN OF VARIOUS CONSTITUTIONAL TYPES IN MEDICAL AND EDUCATIONAL INSTITUTIONS</arttitle>
+          </arttitles>
+          <abstracts>
+            <abstract lang="RUS">Актуальность комплексного индивидуализированного подхода к медико-социальному сопровождению определяется негативной тенденцией к ухудшению здоровья детей, особенно школьного возраста. Программа основана на разделении детей на три типа психосоматической конституции по направленности их психической активности: на интровертов (направленность вовнутрь), экстравертов (вовне) и центровертов (баланс активности). Интро-, экстра- и центроверты имеют четкие различия в физическом, нервно-психическом развитии, функционировании органов и систем, предрасположенности к заболеваниям, что было учтено при создании программ профилактики и комплекса клинических рекомендаций.</abstract>
+            <abstract lang="ENG">The actuality of the complex individualized approach to the medical social accompaniment is defined by the negative tendency to the deterioration of children health status especially of schoolchildren. The program is based upon the division of the children into three types of psychosomatic constitution namely the direction of their psychic activity: introverts (directed in), extraverts (directed out) and centroverts (activity balance). Intro-, extra- and centroverts have clear differences in physical and neural psychic development, in functioning of their organs and systems, predisposition to the diseases and it is taken into account in the development of the programs of prevention and the complex of clinical recommendations.</abstract>
+          </abstracts>
+          <arttype>RAR</arttype>
+          <text lang="RUS" arttype="RAR">ДИФФЕРЕНЦИРОВАННЫЙ ПОДХОД К МЕДИКО-СОЦИАЛЬНОМУ 
+СОПРОВОЖДЕНИЮ ДЕТЕЙ РАЗНЫХ КОНСТИТУЦИОНАЛЬНЫХ ТИПОВ 
+В УЧРЕЖДЕНИЯХ ЗДРАВООХРАНЕНИЯ И ОБРАЗОВАНИЯ
+
+           Актуальность комплексного индивидуализированного подхода к медико-социальному сопровождению определяется негативной тенденцией к ухудшению здоровья детей, особенно школьного возраста. Программа основана на разделении детей на три типа психосоматической конституции по направленности их психической активности: на интровертов (направленность вовнутрь), экстравертов (вовне) и центровертов (баланс активности). Интро-, экстра- и центроверты имеют четкие различия в физическом, нервно-психическом развитии, функционировании органов и систем, предрасположенности к заболеваниям, что было учтено при создании программ профилактики и комплекса клинических рекомендаций.
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>психосоматическая конституция</keyword>
+              <keyword>школьники 7-17 лет</keyword>
+              <keyword>комплексная оценка состояния здоровья</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>psychosomatic constitution</keyword>
+              <keyword>schoolchildren aged 7-17 years</keyword>
+              <keyword>complex evaluation of health status</keyword>
+            </kwdGroup>
+          </keywords>
+          <biblist>
+              <blistpart>Баранов А. А., Кумча В. Р., Сухарева Л. М. Медицинские и социальные аспекты адаптации современных подростков к условиям воспитания, обучения и трудовой деятельности. - М. : ГЭОТАР-Медиа, 2007. - 352 с.
+
+              </blistpart>
+              <blistpart>Медико-психолого-педагогическое сопровождение детей в учреждениях здравоохранения и образования / Л.А. Жданова, Т.В. Русова, А.В. Шишова, И.Е. Бобошко, Г.Н. Нуждина. - Иваново : ГОу ВПО ИвГМА Минздрава России, 2003. - 216 с.
+
+              </blistpart>
+              <blistpart>Послание президента РФ // Мед. вестн. - 14 ноября 2008. - № 35 (462). - С. 2.
+
+              </blistpart>
+          </biblist>
+            <fpdf>Бобошко.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Клиническая медицина</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>40</fpageart>
+          <lpageart>43</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Русов</surname>
+                <fname>И.А.</fname>
+                <auadr>153002, Иваново, Ф. Энгельса, 8</auadr>
+                <auemail>тел.: 8-920-344-64-24</auemail>
+                <auwork>ГОу ВПО «Ивановская государственная медицинская академия Росздрава»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Rusov</surname>
+                <fname>I.A.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">СОСТОЯНИЕ ЗДОРОВЬЯ ДЕТЕЙ ПОДРОСТКОВОГО ВОЗРАСТА
+ИПСИХОЛОГИЧЕСКИЕ ФАКТОРЫ РИСКА РАЗВИТИЯ ЕГО НАРУШЕНИЙ</arttitle>
+            <arttitle lang="ENG">ADOLESCENTS HEALTH STATUS AND PSYCHOLOGICAL RISK FACTORS IN THE DEVELOPMENT OF ITS DISORDERS</arttitle>
+          </arttitles>
+          <abstracts>
+            <abstract lang="RUS">При комплексном медико-психологическом обследовании подростков 10-17 лет с рецидивирующей и хронической соматической патологией установлена значительная распространенность неврологических расстройств, неблагоприятных психологических характеристик личности, а также психогенных и социальных факторов, что свидетельствует о необходимости внедрения в практическое здравоохранение комплексных программ выявления и реабилитации этих пациентов с учетом спектра нейросоматических и психологических проблем.</abstract>
+            <abstract lang="ENG">Adolescents aged 10-17 years with recurring and chronic somatic pathology undergone complex medical psychological examination. Significant spreading of neurological disorders and unfavorable psychological personal characteristics so as psychogenic and social factors were revealed. It testified to the necessity to introduce complex programs for revealing and rehabilitation of such patients into practical public health system with due regard to the spectrum of neurosomatic and psychological problems.</abstract>
+          </abstracts>
+          <arttype>RAR</arttype>
+          <text lang="RUS" arttype="RAR">СОСТОЯНИЕ ЗДОРОВЬЯ ДЕТЕЙ ПОДРОСТКОВОГО ВОЗРАСТА
+ИПСИХОЛОГИЧЕСКИЕ ФАКТОРЫ РИСКА РАЗВИТИЯ ЕГО НАРУШЕНИЙ
+
+           При комплексном медико-психологическом обследовании подростков 10-17 лет с рецидивирующей и хронической соматической патологией установлена значительная распространенность неврологических расстройств, неблагоприятных психологических характеристик личности, а также психогенных и социальных факторов, что свидетельствует о необходимости внедрения в практическое здравоохранение комплексных программ выявления и реабилитации этих пациентов с учетом спектра нейросоматических и психологических проблем.
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>подростки</keyword>
+              <keyword>заболеваемость</keyword>
+              <keyword>психологический статус</keyword>
+              <keyword>социальная адаптация</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>adolescents</keyword>
+              <keyword>morbidity</keyword>
+              <keyword>psychological status</keyword>
+              <keyword>social adaptation</keyword>
+            </kwdGroup>
+          </keywords>
+          <biblist>
+              <blistpart>Жданова Л. А., Салова М. Н., Рунова О. С. Нейросоматический подход к реабилитации детей с заболеваниями верхних отделов пищеварительного тракта // Вестн. Ивановской медицинской академии. -  2009. - Т. 14, № 3. - С. 18-21.
+
+              </blistpart>
+              <blistpart>Исаев Д. Н. Психосоматическая медицина детского возраста. - СПб. : Специальная литература, 1996. -  454 с.
+
+              </blistpart>
+              <blistpart>Кучма В. Р. Медико-профилактические основы обучения и воспитания детей: рук-во для медицинских и педагогических работников образовательных и лечебно-профилактических учреждений. - М. : ГЕОТАР-Медиа, 2005. - 528 с.
+
+              </blistpart>
+              <blistpart>Кушнир С. М., Антонова Л. К. Вегетативная дисфункция и вегатативная дистония. - Тверь, 2007. - 216 с.
+
+              </blistpart>
+              <blistpart>Медико-социальные и демографические параметры службы охраны здоровья матери и ребенка : информ. матер. Минздравсоцразвития РФ. - М., 2007. - 128 с.
+
+              </blistpart>
+              <blistpart>Менделевич В. Д., Соловьева С. Л. Неврозология и психосоматическая медицина. - М. : МЕДпресс- информ, 2002. - 608 с.
+
+              </blistpart>
+          </biblist>
+            <fpdf>Русов.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Клиническая медицина</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>44</fpageart>
+          <lpageart>48</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Колбасников</surname>
+                <fname>С.В.</fname>
+                <auadr>170003, г. Тверь, ул. Веселова, д. 25</auadr>
+                <auwork>ГОУВПО «Тверская государственная медицинская 
+академия Росздрава»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Kolbasnikov</surname>
+                <fname>S.V</fname>
+              </individInfo>
+            </author>
+            <author num="2">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Нилова</surname>
+                <fname>О.В.</fname>
+                <auadr>170003, г. Тверь, ул. Веселова, д. 25</auadr>
+                <auemail>tevirp69@mail.ru</auemail>
+                <auwork>ГОУВПО «Тверская государственная медицинская 
+академия Росздрава»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Nilova</surname>
+                <fname>O.V.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">ОСОБЕННОСТИ МАГИСТРАЛЬНОГО АРТЕРИАЛЬНОГО КРОВООБРАЩЕНИЯ У БОЛЬНЫХ АРТЕРИАЛЬНОЙ ГИПЕРТЕНЗИЕЙ</arttitle>
+            <arttitle lang="ENG">PECULIARIТIES OF THE MAGISTRAL ARTERIAL CIRCULATION IN PATIENTS WITH ARTERIAL HYPERTENSION</arttitle>
+          </arttitles>
+          <abstracts>
+            <abstract lang="RUS">Проанализированы основные показатели кровотока по магистральным артериям головы у больных артериальной гипертензией, их зависимость от выраженности сосудисто-мозговой недостаточности и уровня общего холестерина крови. Обследованы 130 больных артериальной гипертензией с различным уровнем общего холестерина, которым выполняли ультразвуковую доплерографию магистральных артерий головы. Установлено, что у больных артериальной гипертензией с увеличением содержания общего холестерина не только нарастают клинические проявления сосудисто-мозговых нарушений, но и усугубляются циркуляторные изменения в магистральных артериях головы за счет развития спастических и стенотических изменений в сосудистой стенке.</abstract>
+            <abstract lang="ENG">The aim of the study was to analyze the basic indices of blood flow in head magistral arteries in patients with arterial hypertension according to vascular cerebral insufficiency manifestation and total cholesterol level in blood plasma. 130 patients with arterial hypertension with different total cholesterol level in blood plasma were examined. Ultrasound dopplermetry of head magistral arteries was made for all patients. Parallel rise of clinical manifestations of vascular cerebral disorders and dyscirculation in head magistral arteries due to the development of spastic and stenotic alterations in vascular wall was revealed in patients with arterial hypertension with the total cholesterol level increase in blood plasma.</abstract>
+          </abstracts>
+          <arttype>RAR</arttype>
+          <text lang="RUS" arttype="RAR">ОСОБЕННОСТИ МАГИСТРАЛЬНОГО АРТЕРИАЛЬНОГО КРОВООБРАЩЕНИЯ У БОЛЬНЫХ АРТЕРИАЛЬНОЙ ГИПЕРТЕНЗИЕЙ
+
+           Проанализированы основные показатели кровотока по магистральным артериям головы у больных артериальной гипертензией, их зависимость от выраженности сосудисто-мозговой недостаточности и уровня общего холестерина крови. Обследованы 130 больных артериальной гипертензией с различным уровнем общего холестерина, которым выполняли ультразвуковую доплерографию магистральных артерий головы. Установлено, что у больных артериальной гипертензией с увеличением содержания общего холестерина не только нарастают клинические проявления сосудисто-мозговых нарушений, но и усугубляются циркуляторные изменения в магистральных артериях головы за счет развития спастических и стенотических изменений в сосудистой стенке.
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>артериальная гипертензия</keyword>
+              <keyword>сосудисто-мозговая недостаточность</keyword>
+              <keyword>общий холестерин плазмы крови</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>arterial hypertension</keyword>
+              <keyword>vascular cerebral insufficiency</keyword>
+              <keyword>total cholesterol in blood plasma</keyword>
+            </kwdGroup>
+          </keywords>
+          <biblist>
+              <blistpart>Белоусов Ю. Б., Намсараев Ж. Н. Эндотелиальная дисфункция как причина атеросклеротического поражения артерий при артериальной гипертензии: методы коррекции // Фарматека. - 2004. - № 6. -  С. 62-72.
+
+              </blistpart>
+              <blistpart>Бойцов С. А. Сосуды как плацдарм и мишень артериальной гипертонии // Consilium Medicum. - 2006. -  Т. 1, № 3. - С. 2-9.
+
+              </blistpart>
+              <blistpart>Возможности антигипертензивной терапии ирбесартаном в коррекции инсулинорезистентности и нарушений мозгового кровотока у больных с метаболическим синдромом / В. Б. Мычка [и др.] // Consilium medicum. - 2006. - Т. 8 (11). - С. 25-30.
+
+              </blistpart>
+              <blistpart>Возможности гиполипидемической терапии больных артериальной гипертонией / И. Е. Чазова [и др.] // Кардиология. Системные гипертензии // Сonsilium medicum. - 2007. - Прилож. - С. 43-48.
+
+              </blistpart>
+              <blistpart>Возможности первичной профилактики цереброваскулярных осложнений у больных с метаболическим синдромом / В. Б. Мычка [и др.] // Кардиоваскулярная терапия и профилактика. - 2006. - Т. 2, № 5. -  С. 33-39.
+
+              </blistpart>
+              <blistpart>Гераськина Л. А., Малинин В. В., Фонякин А. В. Гипертоническая энцефалопатия, ремоделирование сердца и хроническая сердечная недостаточность // Кардиоваскулярная терапия и профилактика. - 2006. -  № 5. - С. 22-27.
+
+              </blistpart>
+              <blistpart>Гераськина Л. А., Суслина З. А., Фонякин А. В. Реактивность сосудов головного мозга у больных дисциркуляторной энцефалопатией на фоне артериальной гипертонии и риск развития гипоперфузии мозга // Терапевт. арх. - 2001. - № 2. - С. 43-48.
+
+              </blistpart>
+              <blistpart>Громнацкий Н. И., Петрова Г. Д. Особенности поражения сердца при метаболическом синдроме у пациентов молодого и среднего возраста // Рос. кардиологический журн. - 2007. - № 5.
+
+              </blistpart>
+              <blistpart>Гусев Е. И., Скворцова В. И. Ишемия головного мозга. - М. : Медицина, 2001. - 254 с.
+
+              </blistpart>
+              <blistpart>Деев А. С., Захарушкина И. В. Церебральные инсульты в молодом возрасте // Журн. неврологии и психиатрии им. С. С. Корсакова. - 2000. - № 1. - С. 14-17.
+
+              </blistpart>
+              <blistpart>Изменение церебральной перфузии и когнитивной функции у больных эссенциальной гипертензией / И. Ю. Ефимова [и др.] // Кардиология. - 2006. -  № 1. - С. 50.
+
+              </blistpart>
+              <blistpart>Карпов Ю. А., Сорокин Е. В. Интенсивное медикаментозное лечение больных с атеросклерозом // Кардиология. - 2005. - № 8. - С. 4-7.
+
+              </blistpart>
+              <blistpart>Лелюк В. Г., Лелюк С. Э. Церебральное кровообращение и артериальное давление. - М. : Реальное время, 2004.
+
+              </blistpart>
+              <blistpart>Никитин Ю. М. Поражение сосудов дуги аорты и их ветвей у больных с цереброваскулярными заболеваниями (клинико-доплеро-ангиографическое исследование): автореф. дис. ... д-ра мед. наук. - М., 1989. - 32 с.
+
+              </blistpart>
+              <blistpart>Chillon J. M., Baumbach GL. Autoregulation: arterial and intracranial pressure / Cerebral Blood Flow and Metabolism. - Philadelphia : Lippincott Williams and Wilkins, 2002. - Р. 395-412.
+
+              </blistpart>
+              <blistpart>Hallerstam S., Larsson P. T., Zuber E., Rosfors S. Caro-tid atherosclerosis is correlated with extent and severity of coronary artery disease evaluated by myocardial perfusion scintigraphy // Angiology. - 2004. - Vol. 55, № 3. - Р. 281-288.
+
+              </blistpart>
+              <blistpart>Morning surge in blood pressure as a predictor of silent and clinical cerebrovascular disease in eldery hypertensives. A prospective study / K. Kario [et al.] // Circulation. - 2003. - Vol. 107, № 3. - P. 1401-1406.
+
+              </blistpart>
+              <blistpart>Cholesterol interactions with phospholipids in mem-branes / H. Ohvo-Rekika [et al.] // Progress in Lipid Research. - 2002. - Vol. 41. - Р. 66-97.
+
+              </blistpart>
+              <blistpart>Elevated cholesterol levels in major depressive disorder associated with non-response to fluoxetine treatment. Psychosomatics / S. Sonawalla [et al.]. - 2002. -  Vol. 43. - Р. 310-316. По
+
+              </blistpart>
+          </biblist>
+            <fpdf>Колбасников.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Клиническая медицина</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>49</fpageart>
+          <lpageart>53</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Филькина</surname>
+                <fname>О.М.</fname>
+                <auadr>153045, г. Иваново, 
+ул. Победы, д. 20</auadr>
+                <auwork>ФГУ«Ивановский научно-исследовательский институт материнства и детства им. В.Н. Городкова Росмедтехнологий»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Filkina</surname>
+                <fname>O.M.</fname>
+              </individInfo>
+            </author>
+            <author num="2">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Долотова</surname>
+                <fname>Н.В.</fname>
+                <auadr>153045, г. Иваново, 
+ул. Победы, д. 20</auadr>
+                <auwork>ФГУ«Ивановский научно-исследовательский институт материнства и детства им. В.Н. Городкова Росмедтехнологий»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Dolotova</surname>
+                <fname>N.V</fname>
+              </individInfo>
+            </author>
+            <author num="3">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Андреюк</surname>
+                <fname>О.Г.</fname>
+                <auadr>153045, г. Иваново, 
+ул. Победы, д. 20</auadr>
+                <auemail>тел.: 8-960-507-98-15</auemail>
+                <auwork>ФГУ«Ивановский научно-исследовательский институт материнства и детства им. В.Н. Городкова Росмедтехнологий»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Andreyuk</surname>
+                <fname>O.G.</fname>
+              </individInfo>
+            </author>
+            <author num="4">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Воробьева</surname>
+                <fname>Е.А.</fname>
+                <auadr>153045, г. Иваново, 
+ул. Победы, д. 20</auadr>
+                <auwork>ФГУ«Ивановский научно-исследовательский институт материнства и детства им. В.Н. Городкова Росмедтехнологий»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Vorobyova</surname>
+                <fname>E.A.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">ЗАБОЛЕВАЕМОСТЬ НЕДОНОШЕННЫХ ДЕТЕЙ, РОДИВШИХСЯ 
+С ОЧЕНЬ НИЗКОЙ И ЭКСТРЕМАЛЬНО НИЗКОЙ МАССОЙ ТЕЛА, 
+К КОНЦУ ПЕРВОГО ГОДА ЖИЗНИ</arttitle>
+            <arttitle lang="ENG">MORBIDITY OF PREMATURE INFANTS WHICH WERE BORN WITH LOW AND EXTREMELY LOW BODY MASS</arttitle>
+          </arttitles>
+          <abstracts>
+            <abstract lang="RUS">Проведен сравнительный анализ частоты соматической патологии, последствий перинатальных поражений центральной нервной системы и причин инвалидизации у детей в возрасте 1 года с перинатальными поражениями центральной нервной системы средней степени тяжести и тяжелыми: недоношенных с массой тела при рождении менее 1500 г и доношенных. Осуществлено клиническое обследование детей в возрасте 1 года, родившихся с массой тела менее 1500 г, и детей, родившихся доношенными, которые проходили в период новорожденности лечение в отделении реанимации и интенсивной терапии новорожденного и отделении II этапа выхаживания недоношенных и патологии новорожденных НИИ материнства и детства им. В.Н. Городкова. Установлено, что у детей с очень низкой и экстремально низкой массой тела частота соматической патологии была выше, а также более часто наступала инвалидность на первом году жизни. При этом большая частота соматической патологии и инвалидизации выявлялась у детей с массой тела менее 1000 г, что свидетельствует о взаимосвязи состояния здоровья ребенка с этим показателем.</abstract>
+            <abstract lang="ENG">The authors carried out the comparative analysis of the incidence of somatic pathology, the consequences of the perinatal lesions of the central nervous system and the causes of disability in children aged 1 year with birth body mass less than 1500 g and in mature infants with moderate and severe perinatal lesions of central nervous system. The clinical examination of the infants aged 1 year which were born with body mass less than 1500 g and the mature infants was made; they undergone the neonatal care course at the intensive care unit and neonatal intensive care department and at the department of premature infants care (II stage) and newborns pathology of the Institute of Maternity and Childhood by V.N. Gorodkov. It was revealed that infants which were born with body mass less than 1500 g were characterized by higher frequency of somatic pathology and more frequent formation of disability in the first year of life. In such cases the most frequency of somatic pathology and disabilities was revealed in babies with body mass less than 1000 g and it testified to the relationship of the infant health status and this index.</abstract>
+          </abstracts>
+          <arttype>RAR</arttype>
+          <text lang="RUS" arttype="RAR">ЗАБОЛЕВАЕМОСТЬ НЕДОНОШЕННЫХ ДЕТЕЙ, РОДИВШИХСЯ 
+С ОЧЕНЬ НИЗКОЙ И ЭКСТРЕМАЛЬНО НИЗКОЙ МАССОЙ ТЕЛА, 
+К КОНЦУ ПЕРВОГО ГОДА ЖИЗНИ
+
+           Проведен сравнительный анализ частоты соматической патологии, последствий перинатальных поражений центральной нервной системы и причин инвалидизации у детей в возрасте 1 года с перинатальными поражениями центральной нервной системы средней степени тяжести и тяжелыми: недоношенных с массой тела при рождении менее 1500 г и доношенных. Осуществлено клиническое обследование детей в возрасте 1 года, родившихся с массой тела менее 1500 г, и детей, родившихся доношенными, которые проходили в период новорожденности лечение в отделении реанимации и интенсивной терапии новорожденного и отделении II этапа выхаживания недоношенных и патологии новорожденных НИИ материнства и детства им. В.Н. Городкова. Установлено, что у детей с очень низкой и экстремально низкой массой тела частота соматической патологии была выше, а также более часто наступала инвалидность на первом году жизни. При этом большая частота соматической патологии и инвалидизации выявлялась у детей с массой тела менее 1000 г, что свидетельствует о взаимосвязи состояния здоровья ребенка с этим показателем.
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>масса тела при рождении менее 1500 г</keyword>
+              <keyword>соматическая патология</keyword>
+              <keyword>инвалидность</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>low and extremely low body mass</keyword>
+              <keyword>infants</keyword>
+              <keyword>somatic pathology</keyword>
+              <keyword>disability</keyword>
+            </kwdGroup>
+          </keywords>
+          <biblist>
+              <blistpart>Абсава Т. А. Комплексный анализ факторов, влияющих на частоту респираторных заболеваний у детей // Актуальные проблемы педиатрии : матер. ХI Конгресса педиатров России. - М., 2007. - С. 7.
+
+              </blistpart>
+              <blistpart>Альбицкий В. Ю., Сигал Т. М., Ананьин С. А. Состояние здоровья детей из социопатических семей // Рос. вестн. перинатологии и педиатрии. - 1994. -  № 1. - С. 8-11.
+
+              </blistpart>
+              <blistpart>Беляков В. А. Адаптационные возможности и здоровье детей раннего возраста // Рос. педиатрический журн. - 2005. - № 2. - С. 8-10.
+
+              </blistpart>
+              <blistpart>Дементьева Г. М. Профилактическая и превентивная неонатология. Низкая масса тела при рождении // Гипоксия плода и новорожденного : лекция для врачей. -  М., 1999. - 70 с.
+
+              </blistpart>
+              <blistpart>Концептуальные взгляды на здоровье ребенка / под ред. В. Н. Шестаковой. - Смоленск, 2003. - 592 с.
+
+              </blistpart>
+              <blistpart>Макарова З. С., Доскин В. А., Голубева Л. Г. Комплексная оценка состояния здоровья детей раннего возраста // Поликлиника. - 2005. - № 1. - С. 8-10.
+
+              </blistpart>
+              <blistpart>Морозов В. И. Последствия перинатальных поражений нервной системы у детей // Педиатрия. - 1998. -  № 1. - С. 35-37.
+
+              </blistpart>
+              <blistpart>Наблюдение за глубоконедоношенными детьми на первом году жизни / Т. Г. Демьянова [и др.] - М. : ИД МЕДПРАКТИКА-М, 2006. - 148 с.
+
+              </blistpart>
+              <blistpart>Неонатология : нац. рук-во / под ред. Н. Н. Володина. - М. : ГЭОТАР-Медиа, 2007. - 848 с.
+
+              </blistpart>
+              <blistpart>Роль перивентрикулярной лейкомаляции в развитии детского церебрального паралича / Е. Д. Белоусова [и др.] // Рос. вестн. перинатологии и педиатрии. - 2001. - № 5. - С. 26-32.
+
+              </blistpart>
+              <blistpart>Состояние здоровья детей как фактор национальной безопасности / А. А. Баранов [и др.] // Рос. педиатрический журн. - 2005. - № 2. - С. 4-8.
+
+              </blistpart>
+              <blistpart>Тонкова-Ямпольская Р. В., Фрухт Э. Л. Постгипоксическая энцефалопатия как педиатрическая и педагогическая проблема // Проблема младенчества: нейропсихолого-педагогическая оценка развития и ранняя коррекция отклонений : матер. науч.-практ. конф. - М., 1999. - С. 139-144.
+
+              </blistpart>
+              <blistpart>Тонкова-Ямпольская Р. В. Состояние здоровья детей с учетом факторов анте- и постнатального риска // Рос. педиатрический журн. - 2002. - № 1. -  С. 61-62.
+
+              </blistpart>
+              <blistpart>Яцык Г. В. Алгоритмы диагностики, лечения и реабилитации перинатальной патологии маловесных детей. - М. : Педагогика-Пресс, 2002. - 96 с.
+
+              </blistpart>
+              <blistpart>Cooke R. W. I., Abemethy L. S. Cranial magnetic resonance imaging and performance in very low weight infants in adolescence // Archive of Disease In Childhood. - 1999. - Vol. 81. - P. 116-121.
+
+              </blistpart>
+          </biblist>
+            <fpdf>Филькина.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Проблемы преподавания</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>54</fpageart>
+          <lpageart>56</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Конкина</surname>
+                <fname>Е.А.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auemail>тел.: (4932) 30-02-28</auemail>
+                <auwork>ГОУВПО «Ивановская государственная 
+медицинская академия Росздрава»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Konkina</surname>
+                <fname>Е.A.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">РОЛЬ МУЗЕЯ КАФЕДРЫ ПАТОЛОГИЧЕСКОЙ АНАТОМИИ
+В УЧЕБНО-ВОСПИТАТЕЛЬНОЙ РАБОТЕ СО СТУДЕНТАМИ
+МЕДИЦИНСКОГО ВУЗА</arttitle>
+            <arttitle lang="ENG">MUSEUM OF PATHOLOGICAL ANATOMY DEPARTMENT: ITS ROLE IN THE TUITION AND EDUCATION OF THE MEDICAL STUDENTS</arttitle>
+          </arttitles>
+          <noabstracts></noabstracts>
+          <arttype>UNK</arttype>
+          <text lang="RUS" arttype="UNK">РОЛЬ МУЗЕЯ КАФЕДРЫ ПАТОЛОГИЧЕСКОЙ АНАТОМИИ
+В УЧЕБНО-ВОСПИТАТЕЛЬНОЙ РАБОТЕ СО СТУДЕНТАМИ
+МЕДИЦИНСКОГО ВУЗА
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>обучение</keyword>
+              <keyword>воспитание</keyword>
+              <keyword>музей</keyword>
+              <keyword>патологическая анатомия</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>tuition</keyword>
+              <keyword>education</keyword>
+              <keyword>museum</keyword>
+              <keyword>pathological anatomy</keyword>
+            </kwdGroup>
+          </keywords>
+          <nobiblist></nobiblist>
+            <fpdf>Конкина.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Обмен опытом
+(в помощь практическому врачу)</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>57</fpageart>
+          <lpageart>59</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Русова</surname>
+                <fname>Т.В.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auemail>ru-sovatv@mail.ru</auemail>
+                <auwork>ГОУВПО «Ивановская государственная медицинская 
+академия Росздрава»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Rusova</surname>
+                <fname>T.V.</fname>
+              </individInfo>
+            </author>
+            <author num="2">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Ратманова</surname>
+                <fname>Г.А.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auwork>ГОУВПО «Ивановская государственная медицинская 
+академия Росздрава»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Ratmanova</surname>
+                <fname>G.A.</fname>
+              </individInfo>
+            </author>
+            <author num="3">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Козлова</surname>
+                <fname>О.Б.</fname>
+                <auadr>153040, Иваново, ул. Любимова, д. 1</auadr>
+                <auwork>ОГУЗ «Ивановская областная клиническая больница»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Kozlova</surname>
+                <fname>O.B.</fname>
+              </individInfo>
+            </author>
+            <author num="4">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Частухина</surname>
+                <fname>Т.В.</fname>
+                <auadr>153040, Иваново, ул. Любимова, д. 1</auadr>
+                <auwork>ОГУЗ «Ивановская областная клиническая больница»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Chastukhina</surname>
+                <fname>T.V.</fname>
+              </individInfo>
+            </author>
+            <author num="5">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Коллеров</surname>
+                <fname>Э.Ю.</fname>
+                <auadr>153040, Иваново, ул. Любимова, д. 1</auadr>
+                <auwork>ОГУЗ «Ивановская областная клиническая больница»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Kollerov</surname>
+                <fname>K.Yu.</fname>
+              </individInfo>
+            </author>
+            <author num="6">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Заводин</surname>
+                <fname>М.В.</fname>
+                <auadr>153040, Иваново, ул. Любимова, д. 1</auadr>
+                <auwork>ОГУЗ «Ивановская областная клиническая больница»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Zavodin</surname>
+                <fname>M.V.</fname>
+              </individInfo>
+            </author>
+            <author num="7">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Фокин</surname>
+                <fname>В.Н.</fname>
+                <auadr>153040, Иваново, ул. Любимова, д. 1</auadr>
+                <auwork>ОГУЗ «Ивановская областная клиническая больница»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Fokin</surname>
+                <fname>V.N.</fname>
+              </individInfo>
+            </author>
+            <author num="8">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Субботина</surname>
+                <fname>В.Г.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auwork>ГОУВПО «Ивановская государственная медицинская 
+академия Росздрава»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Subbotina</surname>
+                <fname>V.G.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">ОСОБЕННОСТИ ДИСПАНСЕРНОГО НАБЛЮДЕНИЯ ДЕТЕЙ 
+С ГЕМОРРАГИЧЕСКИМ ВАСКУЛИТОМ В ДЕТСКОЙ ПОЛИКЛИНИКЕ</arttitle>
+            <arttitle lang="ENG">PECULIARITIES OF PROPHYLACTIC MEDICAL EXAMINATION IN CHILDREN WITH HEMORRAGIC VASCULITIS IN PEDIATRIC POLYCLINIC</arttitle>
+          </arttitles>
+          <noabstracts></noabstracts>
+          <arttype>UNK</arttype>
+          <text lang="RUS" arttype="UNK">ОСОБЕННОСТИ ДИСПАНСЕРНОГО НАБЛЮДЕНИЯ ДЕТЕЙ 
+С ГЕМОРРАГИЧЕСКИМ ВАСКУЛИТОМ В ДЕТСКОЙ ПОЛИКЛИНИКЕ
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>диспансеризация</keyword>
+              <keyword>геморрагические заболевания</keyword>
+              <keyword>дети</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>prophylactic medical examination</keyword>
+              <keyword>hemorragic diseases</keyword>
+              <keyword>children</keyword>
+            </kwdGroup>
+          </keywords>
+          <biblist>
+              <blistpart>Баранов А. А. Руководство по амбулаторно-поликлинической педиатрии. - М. : ГЭОТАР-Медиа, 2006.
+
+              </blistpart>
+              <blistpart>Медицинские показания и противопоказания для санаторно-курортного лечения детей : метод. указания МЗ РЗ № 99/231 от 22.12.99 г.
+
+              </blistpart>
+              <blistpart>Онкология детского возраста / под ред. А. Г. Румянцева, Е. В. Самочатовой. - М. : Медпрактика, 2004.
+
+              </blistpart>
+              <blistpart>Приказ МЗ и СР РФ № 344 «Стандарт оказания медицинской помощи больным с идиопатической тромбоцитопенической пурпурой (при оказании специализированной помощи) от 21. 05 2007 г.
+
+              </blistpart>
+              <blistpart>Отраслевые стандарты объема медицинской помощи детям, болезни крови и кроветворных органов: приложение № 21 к приказу МЗ РФ № 151 от 07.05.1998 г.
+
+              </blistpart>
+          </biblist>
+            <fpdf>Русова.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Страницы истории</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>60</fpageart>
+          <lpageart>65</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Кашманова</surname>
+                <fname>Г.Н.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auwork>ГОУВПО «Ивановская государственная медицинская академия 
+Росздрава»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Kashmanova</surname>
+                <fname>G.N.</fname>
+              </individInfo>
+            </author>
+            <author num="2">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Тюрина</surname>
+                <fname>О.В.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auemail>тел.: (4932) 32-90-65</auemail>
+                <auwork>ГОУВПО «Ивановская государственная медицинская академия 
+Росздрава»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Tiurina</surname>
+                <fname>O.V.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">ВКЛАД КОЛЛЕКТИВА ИВАНОВСКОГО МЕДИЦИНСКОГО ИНСТИТУТА 
+ВВЕЛИКУЮ ПОБЕДУ</arttitle>
+            <arttitle lang="ENG">CONTRIBUTION OF THE IVANOVO STATE MEDICAL INSTITUTE TO THE GREAT VICTORY</arttitle>
+          </arttitles>
+          <noabstracts></noabstracts>
+          <arttype>UNK</arttype>
+          <text lang="RUS" arttype="UNK">ВКЛАД КОЛЛЕКТИВА ИВАНОВСКОГО МЕДИЦИНСКОГО ИНСТИТУТА 
+ВВЕЛИКУЮ ПОБЕДУ
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>Великая Отечественная война</keyword>
+              <keyword>вклад медиков в победу</keyword>
+              <keyword>научная деятельность</keyword>
+              <keyword>международная встреча женщин-медиков</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>the Great Patriotic War</keyword>
+              <keyword>contribution of the medical workers to victory</keyword>
+              <keyword>scientific activity</keyword>
+              <keyword>international meeting of women - medical workers</keyword>
+            </kwdGroup>
+          </keywords>
+          <nobiblist></nobiblist>
+            <fpdf>Кашманова.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Краткие сообщения</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>66</fpageart>
+          <lpageart>67</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Евтихова</surname>
+                <fname>Е.Ю.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auemail>evtichova@inbox.ru</auemail>
+                <auwork>ГОУВПО «Ивановская государственная медицинская академия Росздрава»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Yevtikhova</surname>
+                <fname>E.Yu.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">ОЦЕНКАКАЧЕСТВА ЖИЗНИ В ОТДАЛЕННОМ ПЕРИОДЕ 
+ПОСЛЕ ПРОКСИМАЛЬНЫХ РЕЗЕКЦИЙ ПОДЖЕЛУДОЧНОЙ ЖЕЛЕЗЫ 
+ПО ПОВОДУ ХРОНИЧЕСКОГО ПАНКРЕАТИТА</arttitle>
+            <arttitle lang="ENG">PROXIMAL RESECTIONS OF PANCREAS IN CHRONIC PANCREATITIS : EVALUATION OF THE QUALITY OF LIFE IN REMOTE PERIOD</arttitle>
+          </arttitles>
+          <noabstracts></noabstracts>
+          <arttype>SCO</arttype>
+          <text lang="RUS" arttype="SCO">ОЦЕНКАКАЧЕСТВА ЖИЗНИ В ОТДАЛЕННОМ ПЕРИОДЕ 
+ПОСЛЕ ПРОКСИМАЛЬНЫХ РЕЗЕКЦИЙ ПОДЖЕЛУДОЧНОЙ ЖЕЛЕЗЫ 
+ПО ПОВОДУ ХРОНИЧЕСКОГО ПАНКРЕАТИТА
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>хронический панкреатит</keyword>
+              <keyword>качество жизни</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>chronic pancreatitis</keyword>
+              <keyword>quality of life</keyword>
+            </kwdGroup>
+          </keywords>
+          <nobiblist></nobiblist>
+            <fpdf>Евтихова.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Краткие сообщения</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>68</fpageart>
+          <lpageart></lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Низовцева</surname>
+                <fname>Л.А.</fname>
+                <auadr>150000, г. Ярославль, ул. Революционная, 5</auadr>
+                <auemail>nizovtzeva_la@mail.ru</auemail>
+                <auwork>ГОУВПО «Ярославская 
+государственная медицинская академия Росздрава»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Nizovtseva</surname>
+                <fname>L.A.</fname>
+              </individInfo>
+            </author>
+            <author num="2">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Баранова</surname>
+                <fname>Н.С.</fname>
+                <auadr>150000, г. Ярославль, ул. Революционная, 5</auadr>
+                <auwork>ГОУВПО «Ярославская 
+государственная медицинская академия Росздрава»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Baranova</surname>
+                <fname>N.S.</fname>
+              </individInfo>
+            </author>
+            <author num="3">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Спирин</surname>
+                <fname>Н.Н.</fname>
+                <auadr>150000, г. Ярославль, ул. Революционная, 5</auadr>
+                <auwork>ГОУВПО «Ярославская 
+государственная медицинская академия Росздрава»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Spirin</surname>
+                <fname>N.N.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">КЛИНИЧЕСКИЕ ОСОБЕННОСТИ РАДИКУЛОПАТИИ 
+ПРИ ХРОНИЧЕСКОМ БОРРЕЛИОЗЕ ЛАЙМА</arttitle>
+            <arttitle lang="ENG">CLINICAL PECULIARITIES OF RADICULOPAPHY IN CHRONIC LYME BORRELIOSIS</arttitle>
+          </arttitles>
+          <noabstracts></noabstracts>
+          <arttype>SCO</arttype>
+          <text lang="RUS" arttype="SCO">КЛИНИЧЕСКИЕ ОСОБЕННОСТИ РАДИКУЛОПАТИИ 
+ПРИ ХРОНИЧЕСКОМ БОРРЕЛИОЗЕ ЛАЙМА
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>боррелиоз Лайма</keyword>
+              <keyword>радикулопатия</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>Lyme borreliosis</keyword>
+              <keyword>radiculopathy</keyword>
+            </kwdGroup>
+          </keywords>
+          <nobiblist></nobiblist>
+            <fpdf>Низовцева.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Краткие сообщения</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>69</fpageart>
+          <lpageart>70</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Чемоданов</surname>
+                <fname>В.В.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auwork>ГОУВПО «Ивановская государственная медицинская 
+академия Росздрава»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Chemodanov</surname>
+                <fname>V.V.</fname>
+              </individInfo>
+            </author>
+            <author num="2">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Краснова</surname>
+                <fname>Е.Е.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auemail>тел.: (4932) 30-08-02</auemail>
+                <auwork>ГОУВПО «Ивановская государственная медицинская 
+академия Росздрава»</auwork>
+                <auinf>доктор медицинских наук</auinf>
+              </individInfo>
+            </author>
+            <author num="3">
+              <correspondent>0</correspondent>
+              <individInfo lang="ENG">
+                <surname>Krasnova</surname>
+                <fname>E.E.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">НЕРЕШЕННЫЕ ВОПРОСЫ ДИАГНОСТИКИ НЕДИФФЕРЕНЦИРОВАННЫХ ДИСПЛАЗИЙ В ДЕТСКОМ ВОЗРАСТЕ</arttitle>
+            <arttitle lang="ENG">UNSOLVED QUESTIONS IN DIAGNOSIS OF INDIFFERENTIATED DYSPLASIA IN CHILDHOOD</arttitle>
+          </arttitles>
+          <noabstracts></noabstracts>
+          <arttype>SCO</arttype>
+          <text lang="RUS" arttype="SCO">НЕРЕШЕННЫЕ ВОПРОСЫ ДИАГНОСТИКИ НЕДИФФЕРЕНЦИРОВАННЫХ ДИСПЛАЗИЙ В ДЕТСКОМ ВОЗРАСТЕ
+
+          </text>
+          <keywords>
+            <kwdGroup lang="RUS">
+              <keyword>недифференцированная дисплазия соединительной ткани</keyword>
+              <keyword>диагностика</keyword>
+              <keyword>гипердиагностика</keyword>
+              <keyword>дети</keyword>
+              <keyword>диспластические синдромы и фенотипы</keyword>
+              <keyword>методы ранней диагностики</keyword>
+            </kwdGroup>
+            <kwdGroup lang="ENG">
+              <keyword>indifferentiated dysplasia of the connective tissue</keyword>
+              <keyword>diagnosis</keyword>
+              <keyword>hyperdiagnosis</keyword>
+              <keyword>children</keyword>
+              <keyword>dysplastic syndromes and phenotypes</keyword>
+              <keyword>early diagnosis methods</keyword>
+            </kwdGroup>
+          </keywords>
+          <nobiblist></nobiblist>
+            <fpdf>Чемоданов.pdf</fpdf>
+        </article>
+        <jseparate>
+          <segtitle lang="RUS">Юбилеи</segtitle>
+        </jseparate>
+        <article>
+          <fpageart>71</fpageart>
+          <lpageart>74</lpageart>
+          <authors>
+            <author num="1">
+              <correspondent>1</correspondent>
+              <individInfo lang="RUS">
+                <surname>Фоменко</surname>
+                <fname>Е.В.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auemail>тел.: (4932) 42-44-30</auemail>
+                <auwork>ГОУВПО «Ивановская государственная 
+медицинская академия Росздрава»</auwork>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Fomenko</surname>
+                <fname>E.V.</fname>
+              </individInfo>
+            </author>
+            <author num="2">
+              <correspondent>0</correspondent>
+              <individInfo lang="RUS">
+                <surname>Шибаева</surname>
+                <fname>С.В.</fname>
+                <auadr>153012, Иваново, просп. Ф. Энгельса, д. 8</auadr>
+                <auwork>ГОУВПО «Ивановская государственная 
+медицинская академия Росздрава»</auwork>
+                <auinf>кандидат медицинских наук</auinf>
+              </individInfo>
+              <individInfo lang="ENG">
+                <surname>Shibaeva</surname>
+                <fname>S.V.</fname>
+              </individInfo>
+            </author>
+          </authors>
+          <arttitles>
+            <arttitle lang="RUS">ОЛИМПИЯ МАКСИМОВНА ЛАГО
+(К 100-ЛЕТИЮ СО ДНЯ РОЖДЕНИЯ)</arttitle>
+            <arttitle lang="ENG">OLIMPIYA MAKSIMOVNA LAGO (To her 100 birth anniversary)</arttitle>
+          </arttitles>
+          <noabstracts></noabstracts>
+          <arttype>PER</arttype>
+          <text lang="RUS" arttype="PER">ОЛИМПИЯ МАКСИМОВНА ЛАГО
+(К 100-ЛЕТИЮ СО ДНЯ РОЖДЕНИЯ)
+
+          </text>
+          <nokeywords></nokeywords>
+          <nobiblist></nobiblist>
+            <fpdf>Фоменко.pdf</fpdf>
+        </article>
+      </issue>
+    </journal>
+  </journals>

@@ -51,3 +51,5 @@ gem 'yaml_db'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 gem 'rmagick'
+
+gem 'nokogiri'

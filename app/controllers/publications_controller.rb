@@ -1,8 +1,8 @@
 class PublicationsController < IssuesController
-  before_action :require_editor, only: [:new, :edit, :create, :update, :destroy]
+  before_action :require_editor, only: [:index, :new, :edit, :create, :update, :destroy]
+  before_action :set_editor_permission, only: [:index, :show]
   before_action :set_issue, only: [:index, :show, :edit, :create, :update, :destroy]
   before_action :set_publication, only: [:show, :edit, :update, :destroy]
-  before_action :set_editor_permission, only: [:index, :show]
 
   # GET /publications
   # GET /publications.json
@@ -32,10 +32,8 @@ class PublicationsController < IssuesController
     respond_to do |format|
       if @publication.save
         format.html { redirect_to :back, notice: 'Publication was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @publication }
       else
         format.html { render action: 'new' }
-        format.json { render json: @publication.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -46,10 +44,8 @@ class PublicationsController < IssuesController
     respond_to do |format|
       if @publication.update(publication_params)
         format.html { redirect_to issue_publication_url(@issue, @publication), notice: 'Publication was successfully updated.' }
-        format.json { head :no_content }
       else
         format.html { render action: 'edit' }
-        format.json { render json: @publication.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -59,8 +55,7 @@ class PublicationsController < IssuesController
   def destroy
     @publication.destroy
     respond_to do |format|
-      format.html { redirect_to issue_publications_url(@issue) }
-      format.json { head :no_content }
+      format.html { redirect_to issue_url(@issue) }
     end
   end
 
