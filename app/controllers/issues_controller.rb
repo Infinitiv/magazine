@@ -1,12 +1,10 @@
 class IssuesController < ApplicationController
-  skip_before_action :require_login, only: [:index, :show]
-  before_action :require_editor, only: [:new, :edit, :create, :update, :destroy]
   before_action :set_issue, only: [:show, :edit, :update, :destroy]
 
   # GET /issues
   # GET /issues.json
   def index
-    @issues = Issue.all
+    @issues = Issue.order(:year, :volume, :number).all
   end
 
   # GET /issues/1

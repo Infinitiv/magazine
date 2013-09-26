@@ -45,7 +45,7 @@
   <%= link_to "Год #{@issue.year}, том #{@issue.volume}, номер #{@issue.number}", @issue %>
 </p>
 
-<%= form_for(@attachment, :url => attachments_path, :controller => :publication) do |f| %>
+<%= form_for(@attachment, :url => attachments_path) do |f| %>
   <div style="display: none;">
     <%= text_field_tag :publication_id, @publication.id %>
   </div>  
