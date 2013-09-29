@@ -11,7 +11,34 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130922165023) do
+ActiveRecord::Schema.define(version: 20130929175219) do
+
+  create_table "article_types", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "articles", force: true do |t|
+    t.text     "title_ru"
+    t.text     "title_en"
+    t.text     "content_ru"
+    t.text     "content_en"
+    t.integer  "article_type_id"
+    t.date     "expire"
+    t.boolean  "published"
+    t.text     "cut_content_ru"
+    t.text     "cut_content_en"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "articles", ["article_type_id"], name: "index_articles_on_article_type_id", using: :btree
+
+  create_table "articles_attachments", id: false, force: true do |t|
+    t.integer "article_id",    null: false
+    t.integer "attachment_id", null: false
+  end
 
   create_table "attachments", force: true do |t|
     t.string   "title"

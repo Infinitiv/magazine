@@ -1,4 +1,6 @@
 class IssuesController < ApplicationController
+  before_action :require_editor, only: [:index, :new, :edit, :create, :update, :destroy]
+  before_action :set_editor_permission, only: [:index, :show]
   before_action :set_issue, only: [:show, :edit, :update, :destroy]
 
   # GET /issues

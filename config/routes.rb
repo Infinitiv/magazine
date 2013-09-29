@@ -1,4 +1,6 @@
 Magazine::Application.routes.draw do
+  resources :articles
+
   resources :issues do
     resources :publications
     collection { post :import}
