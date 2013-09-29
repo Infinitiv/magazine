@@ -63,6 +63,11 @@ class IssuesController < ApplicationController
     end
   end
 
+  def import
+    Issue.import(params[:file])
+    redirect_to :back, notice: "Import sucsess"
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_issue
