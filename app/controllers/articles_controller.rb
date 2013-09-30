@@ -76,6 +76,10 @@ class ArticlesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def article_params
+      params[:article][:content_ru] = ReverseMarkdown.parse params[:article][:content_ru]
+      params[:article][:content_en] = ReverseMarkdown.parse params[:article][:content_en]
+      params[:article][:cut_content_ru] = ReverseMarkdown.parse params[:article][:cut_content_ru]
+      params[:article][:cut_content_en] = ReverseMarkdown.parse params[:article][:cut_content_en]
       params.require(:article).permit(:title_ru, :title_en, :content_ru, :content_en, :article_type_id, :expire, :published, :cut_content_ru, :cut_content_en)
     end
     

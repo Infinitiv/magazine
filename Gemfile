@@ -53,3 +53,7 @@ gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'rmagick'
 
 gem 'nokogiri'
+
+gem 'redcarpet'
+
+gem 'reverse_markdown'

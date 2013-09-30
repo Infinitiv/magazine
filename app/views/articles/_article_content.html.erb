@@ -1,0 +1,12 @@
+<article>
+  <% if controller.action_name == 'show' %>
+    <%= markdown(article.content_ru) %>
+  <% else %>
+    <% if article.content_ru.length > 255 %>
+      <%= markdown(truncate(article.content_ru, :length => 255, :omission => '... ', :separator => ' ')) %>
+      <%= link_to ' Читать дальше', article %>
+    <% else %>
+      <%= markdown(article.content_ru) %>
+    <% end %>
+  <% end %>
+</article>

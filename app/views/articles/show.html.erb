@@ -1,49 +1,5 @@
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Title ru:</strong>
-  <%= @article.title_ru %>
-</p>
-
-<p>
-  <strong>Title en:</strong>
-  <%= @article.title_en %>
-</p>
-
-<p>
-  <strong>Content ru:</strong>
-  <%= @article.content_ru %>
-</p>
-
-<p>
-  <strong>Content en:</strong>
-  <%= @article.content_en %>
-</p>
-
-<p>
-  <strong>Type:</strong>
-  <%= @article.type %>
-</p>
-
-<p>
-  <strong>Expire:</strong>
-  <%= @article.expire %>
-</p>
-
-<p>
-  <strong>Published:</strong>
-  <%= @article.published %>
-</p>
-
-<p>
-  <strong>Cut content ru:</strong>
-  <%= @article.cut_content_ru %>
-</p>
-
-<p>
-  <strong>Cut content en:</strong>
-  <%= @article.cut_content_en %>
-</p>
+<%= render partial: 'article', locals: { article: @article } %>
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>

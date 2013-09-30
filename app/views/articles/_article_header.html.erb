@@ -1,0 +1,18 @@
+<header>
+<h1>
+<%= link_to article.title_ru, article %>
+</h1>
+<p>
+  <% case article.updated_at.to_date %>
+  <% when Time.now.to_date %>
+    <% if article.updated_at > article.created_at %>
+    &nbspОбновлено:&nbsp
+    <% end %>
+    <%= time_tag article.updated_at, :pubdate => true, :format => '%R' %>
+  <% else %>
+    <% if article.updated_at > article.created_at %>
+    &nbspОбновлено:&nbsp
+    <% end %>
+    <%= time_tag article.updated_at, :pubdate => true, :format => '%e.%m.%Y %R' %>
+  <% end %>
+</header>

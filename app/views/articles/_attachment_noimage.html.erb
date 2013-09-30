@@ -1,0 +1,6 @@
+<li>
+<%= link_to attachment_name(attachment_noimage), article_attachment_path(attachment_noimage.article, attachment_noimage), target: 'new' %>
+<%= link_to(article_attachment_path(attachment_noimage.article, attachment_noimage), confirm: 'Уверены?', method: :delete) do %>
+  <i class="icon-remove" title="Удалить"></i>
+<% end %>
+</li>

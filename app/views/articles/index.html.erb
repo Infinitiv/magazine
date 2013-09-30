@@ -1,43 +1,4 @@
 <h1>Listing articles</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title ru</th>
-      <th>Title en</th>
-      <th>Content ru</th>
-      <th>Content en</th>
-      <th>Type</th>
-      <th>Expire</th>
-      <th>Published</th>
-      <th>Cut content ru</th>
-      <th>Cut content en</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @articles.each do |article| %>
-      <tr>
-        <td><%= article.title_ru %></td>
-        <td><%= article.title_en %></td>
-        <td><%= article.content_ru %></td>
-        <td><%= article.content_en %></td>
-        <td><%= article.type %></td>
-        <td><%= article.expire %></td>
-        <td><%= article.published %></td>
-        <td><%= article.cut_content_ru %></td>
-        <td><%= article.cut_content_en %></td>
-        <td><%= link_to 'Show', article %></td>
-        <td><%= link_to 'Edit', edit_article_path(article) %></td>
-        <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
+<%= render partial: 'article', collection: @articles %>
 <%= link_to 'New Article', new_article_path %>

@@ -80,4 +80,8 @@ class IssuesController < ApplicationController
     def issue_params
       params.require(:issue).permit(:year, :volume, :number)
     end
+    
+    def set_editor_permission
+      @editor_permission = current_user_editor?
+    end
 end

@@ -101,6 +101,9 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    redcarpet (2.3.0)
+    reverse_markdown (0.4.6)
+      nokogiri
     rmagick (2.13.2)
     sass (3.2.10)
     sass-rails (4.0.0)
@@ -152,6 +155,8 @@ DEPENDENCIES
   mysql2
   nokogiri
   rails (~> 4.0.0)
+  redcarpet
+  reverse_markdown
   rmagick
   sass-rails
   sdoc

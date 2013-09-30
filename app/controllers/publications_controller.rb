@@ -73,8 +73,4 @@ class PublicationsController < IssuesController
     def publication_params
       params.require(:publication).permit(:title_ru, :title_en, :authors_ru, :authors_en, :keywords_ru, :keywords_en, :abstract_ru, :abstract_en, :issue_id)
     end
-
-    def set_editor_permission
-      @editor_permission = current_user_editor?
-    end
 end
