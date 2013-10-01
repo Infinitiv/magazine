@@ -2,9 +2,12 @@ class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
-  before_action :require_login
   before_action :current_user
+  before_action :require_login
   layout :user_layout
+  before_action :set_menu_and_path
+  before_action :set_menus
+  before_action :set_last_publication
 
   def current_user
     @current_user = User.find_by_id(session[:user_id])
@@ -61,5 +64,22 @@ class ApplicationController < ActionController::Base
     else
       "application"
     end
+  end
+  
+  def set_menu_and_path
+    @menu = Menu.new
+    @url = request.fullpath
+  end
+  
+  def set_menus
+    if current_user_administrator? 
+      @menus = Menu.order(:weigth).all 
+    else
+      @menus = Menu.order(:weigth).where(private: false)
+    end
+  end
+  
+  def set_last_publication
+    @last_publication = Publication.last
   end
 end

@@ -24,28 +24,72 @@
     <nav class="top-bar">
       <ul class="title-area">
 	<li class="name">
-	  <h1><%= link_to 'ИвГМА', 'http://isma.ivanovo.ru' %></h1>
+	  <h1><%= link_to t(:isma), 'http://isma.ivanovo.ru' %></h1>
 	</li>
       </ul>
 
       <section class="top-bar-section">
 	<ul class="left">
 	  <li class="divider"></li>
-    <li><%= link_to 'Выпуски', issues_path %></li>
-    <li class="divider"></li>
-	  <li><%= link_to 'Пользователи', users_path %></li>
+	  <li><%= link_to t(:fresh_publication), issue_publication_path(@last_publication.issue, @last_publication) %>
+	<% @menus.each do |menu| %>
 	  <li class="divider"></li>
-	  <li><%= link_to 'Группы', groups_path %></li>
+	  <li><%= link_to t(menu.title), menu.path %>
+	<% end %>
 	</ul>
 	<ul class="right">
 	  <li class="divider"></li>
-	  <li><%= @current_user ? link_to("Выйти", logout_path) : link_to("Войти", login_path) %></li>
+	  <li><%= @current_user ? link_to(t(:log_out), logout_path) : link_to(t(:sign_in), login_path) %></li>
 	</ul>
       </section>
     </nav>
 
     <div class="row">
      <div class="small-12 large-12 columns"><h1>Вестник ИвГМА</h1></div>
+    </div>
+    <div class="row">
+      <div class="small-12 large-12 columns">
+	<%= form_for(@menu, :url => menus_path) do |f| %>
+	  <div class="small-4 large-4 columns">
+	    <div class="row">
+	      <div class="small-6 large-6 columns">
+		<%= f.label :title, :class => "inline" %>
+	      </div>
+	      <div class="small-6 large-6 columns">
+		<%= f.text_field :title %>
+	      </div>
+	    </div>
+	  </div>
+	  <div  style="display: none;">
+	    <%= f.label :path %><br>
+	    <%= f.text_field :path, value: @url %>
+	  </div>
+	  <div class="small-4 large-4 columns">
+	    <div class="row">
+	      <div class="small-6 large-6 columns">
+		<%= f.label :weigth, :class => 'inline' %>
+	      </div>
+	      <div class="small-6 large-6 columns">
+		<%= f.number_field :weigth %>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="small-2 large-2 columns">
+	    <div class="row">
+	      <div class="small-12 large-12 columns">
+		<%= f.label :private, :class => 'inline' do %>
+		  <%= f.check_box :private %>
+		  <span class="custom checkbox"></span> <%= t(:private) %>
+		<% end %>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="small-2 large-2 columns inline">
+	    <%= f.submit :class => "inline button small" %>
+	  </div>
+	<% end %>
+      </div>
+    </div>
     <div class="row">
       <div class="small-3 large-2 columns">Новости</div>
       <div class="small-9 large-10 columns"><%= yield %></div>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130929175219) do
+ActiveRecord::Schema.define(version: 20131001173346) do
 
   create_table "article_types", force: true do |t|
     t.string   "name"
@@ -73,6 +73,15 @@ ActiveRecord::Schema.define(version: 20130929175219) do
     t.integer  "year"
     t.integer  "volume"
     t.integer  "number"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "menus", force: true do |t|
+    t.string   "title"
+    t.string   "path"
+    t.integer  "weigth"
+    t.boolean  "private",    default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
