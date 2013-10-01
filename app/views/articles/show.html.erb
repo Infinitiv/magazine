@@ -1,5 +1,20 @@
-<p id="notice"><%= notice %></p>
 <%= render partial: 'article', locals: { article: @article } %>
-
+<ul class="clearing-thumbs" data-clearing>
+<%= render partial: 'image_attachment', collection: @image_attachments %>
+</ul>
+<ul class="no-bullet">
+<%= render partial: 'not_image_attachment', collection: @not_image_attachments %>
+</ul>
+<%= form_for(@attachment, :url => attachments_path) do |f| %>
+  <div style="display: none;">
+    <%= text_field_tag :article_id, @article.id %>
+  </div>  
+  <div class="filefild">
+    <%= f.file_field :file %>
+  </div>
+  <div class="actions">
+    <%= f.submit 'Прикрепить файл' %>
+  </div>
+<% end %>
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>

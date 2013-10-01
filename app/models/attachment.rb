@@ -1,6 +1,8 @@
 class Attachment < ActiveRecord::Base
   require 'RMagick'
   has_and_belongs_to_many :publications
+  has_and_belongs_to_many :articles
+  has_and_belongs_to_many :issues
   
     def uploaded_file=(incoming_file)
         self.title = incoming_file[:file].original_filename
@@ -17,6 +19,14 @@ class Attachment < ActiveRecord::Base
 
     def filename=(new_filename)
         write_attribute("filename", sanitize_filename(new_filename))
+    end
+    
+    def title_sen_dot
+      if %r{[.]} =~ title
+	title.reverse.from((%r{[.].+} =~ title.reverse) + 1).reverse
+      else
+	title
+      end
     end
     
     private

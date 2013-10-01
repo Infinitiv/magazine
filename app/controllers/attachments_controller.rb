@@ -22,8 +22,13 @@ class AttachmentsController < ApplicationController
       @attachment = Attachment.new
       @attachment.uploaded_file = params[:attachment]
       @attachment.thumbnail = thumb(@attachment.data, 150) if @attachment.mime_type =~ /image/
-      if params[:publication_id]
-	@attachment.publications << Publication.find(params[:publication_id])
+      case 
+      when params[:publication_id]
+	      @attachment.publications << Publication.find(params[:publication_id])
+      when params[:article_id]
+        @attachment.articles << Article.find(params[:article_id])
+      when params[:issue_id]
+        @attachment.issues << Issue.find(params[:issue_id])
       end
       if @attachment.save
 	  flash[:notice] = "Thank you for your submission..."

@@ -1,4 +1,4 @@
-<article>
+  <%= render partial: 'first_image_attachment', locals: {image_attachment: @first_image_attachment } if @first_image_attachment %>
   <% if controller.action_name == 'show' %>
     <%= markdown(article.content_ru) %>
   <% else %>
@@ -9,4 +9,3 @@
       <%= markdown(article.content_ru) %>
     <% end %>
   <% end %>
-</article>

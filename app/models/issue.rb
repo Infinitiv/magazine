@@ -1,6 +1,6 @@
 class Issue < ActiveRecord::Base
   has_many :publications
-  has_many :attachments, :through => :attachments_issues
+  has_and_belongs_to_many :attachments
   
   validate :year, :volume, :number, :presence => true
 

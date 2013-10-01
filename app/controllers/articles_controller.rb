@@ -13,6 +13,10 @@ class ArticlesController < ApplicationController
   # GET /articles/1
   # GET /articles/1.json
   def show
+    @attachment = Attachment.new
+    @first_image_attachment = @article.attachments.select {|a| a.mime_type =~ /image/}.first
+    @image_attachments = @article.attachments.select {|a| a.mime_type =~ /image/} - [@first_image_attachment]
+    @not_image_attachments = @article.attachments.select {|a| a.mime_type !~ /image/}
   end
 
   # GET /articles/new
