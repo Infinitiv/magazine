@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
   layout :user_layout
   before_action :set_menu_and_path
   before_action :set_menus
-  before_action :set_last_publication
+  before_action :set_last_issue
   before_action :set_locale
 
   def current_user
@@ -80,8 +80,8 @@ class ApplicationController < ActionController::Base
     end
   end
   
-  def set_last_publication
-    @last_publication = Publication.last
+  def set_last_issue
+    @last_issue = Issue.order(:year, :volume, :number).last
   end
 
   def default_url_options(options={})

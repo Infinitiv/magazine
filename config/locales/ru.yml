@@ -248,7 +248,6 @@ ru:
       long: ! '%d %B %Y, %H:%M'
       short: ! '%d %b, %H:%M'
     pm: вечера
-
   publications:
     show:
       issue: "Выпуск:"
@@ -259,6 +258,15 @@ ru:
       keywords: "Ключевые слова"
       abstract: "Резюме"
       attach: "Прикрепить файл"
+  layout:
+    admin:
+      fresh_issue: "Свежий номер"
+      log_out: "Выйти"
+      sign_in: "Войти"
+      issues: "Выпуски"
+      users:  "Пользователи"
+      groups: "Группы"
+      isma: "ИвГМА"
 
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:
