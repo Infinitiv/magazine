@@ -1,9 +1,9 @@
 <p id="notice"><%= notice %></p>
-<h1><%= "Год #{@issue.year}, том #{@issue.volume}, номер #{@issue.number}" %></h1>
+<h1><%= "#{t('.year', :default => 'Год')} #{@issue.year}, #{t('.volume', :default => 'Том')} #{@issue.volume}, #{t('.num', :default => '№')} #{@issue.number}" %></h1>
 <%= render 'publications/form' %>
 <ul>
   <% @publications.each do |publication| %>
-    <li><%= link_to publication.title_ru, issue_publication_path(@issue, publication) %>
+    <li><%=  link_to params[:locale] == 'ru' ? publication.title_ru : publication.title_en, issue_publication_path(@issue, publication) %>
   <% end %>
 </ul>
 <%= link_to 'Edit', edit_issue_path(@issue), :class => 'small button' %> |

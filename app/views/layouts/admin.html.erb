@@ -5,42 +5,43 @@
 <!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
   <head>
-  	<meta charset="utf-8" />
+    <meta charset="utf-8" />
 
-  	<!-- Uncomment to make IE8 render like IE7 -->
-  	<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
+    <!-- Uncomment to make IE8 render like IE7 -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
 
-  	<!-- Set the viewport width to device width for mobile -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
 
-  	<%= stylesheet_link_tag    "application" %>
-  	<%= javascript_include_tag "vendor/custom.modernizr" %>
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "vendor/custom.modernizr" %>
     <%= csrf_meta_tags %>
   </head>
 
   <body>
     <nav class="top-bar">
       <ul class="title-area">
-	<li class="name">
-	  <h1><%= link_to t(:isma), 'http://isma.ivanovo.ru' %></h1>
-	</li>
+  <li class="name">
+    <h1><%= link_to t(:isma), 'http://isma.ivanovo.ru' %></h1>
+  </li>
       </ul>
 
       <section class="top-bar-section">
-	<ul class="left">
-	  <li class="divider"></li>
-	  <li><%= link_to t(:fresh_publication), issue_publication_path(@last_publication.issue, @last_publication) %>
-	<% @menus.each do |menu| %>
-	  <li class="divider"></li>
-	  <li><%= link_to t(menu.title), menu.path %>
-	<% end %>
-	</ul>
-	<ul class="right">
-	  <li class="divider"></li>
-	  <li><%= @current_user ? link_to(t(:log_out), logout_path) : link_to(t(:sign_in), login_path) %></li>
-	</ul>
+  <ul class="left">
+    <li class="divider"></li>
+    <li><%= link_to t(:fresh_publication), issue_publication_path(@last_publication.issue, @last_publication) %>
+  <% @menus.each do |menu| %>
+    <li class="divider"></li>
+    <li><%= link_to t(menu.title), menu.path + "?locale=#{params[:locale]}" %>
+  <% end %>
+  </ul>
+  <ul class="right">
+    <li><%= params[:locale] == 'ru' ? link_to('En', url_for(:locale => :en)) : link_to('Рус', url_for(:locale => :ru)) %>
+    <li class="divider"></li>
+    <li><%= @current_user ? link_to(t(:log_out), logout_path) : link_to(t(:sign_in), login_path) %></li>
+  </ul>
       </section>
     </nav>
 
@@ -49,45 +50,45 @@
     </div>
     <div class="row">
       <div class="small-12 large-12 columns">
-	<%= form_for(@menu, :url => menus_path) do |f| %>
-	  <div class="small-4 large-4 columns">
-	    <div class="row">
-	      <div class="small-6 large-6 columns">
-		<%= f.label :title, :class => "inline" %>
-	      </div>
-	      <div class="small-6 large-6 columns">
-		<%= f.text_field :title %>
-	      </div>
-	    </div>
-	  </div>
-	  <div  style="display: none;">
-	    <%= f.label :path %><br>
-	    <%= f.text_field :path, value: @url %>
-	  </div>
-	  <div class="small-4 large-4 columns">
-	    <div class="row">
-	      <div class="small-6 large-6 columns">
-		<%= f.label :weigth, :class => 'inline' %>
-	      </div>
-	      <div class="small-6 large-6 columns">
-		<%= f.number_field :weigth %>
-	      </div>
-	    </div>
-	  </div>
-	  <div class="small-2 large-2 columns">
-	    <div class="row">
-	      <div class="small-12 large-12 columns">
-		<%= f.label :private, :class => 'inline' do %>
-		  <%= f.check_box :private %>
-		  <span class="custom checkbox"></span> <%= t(:private) %>
-		<% end %>
-	      </div>
-	    </div>
-	  </div>
-	  <div class="small-2 large-2 columns inline">
-	    <%= f.submit :class => "inline button small" %>
-	  </div>
-	<% end %>
+  <%= form_for(@menu, :url => menus_path) do |f| %>
+    <div class="small-4 large-4 columns">
+      <div class="row">
+        <div class="small-6 large-6 columns">
+    <%= f.label :title, :class => "inline" %>
+        </div>
+        <div class="small-6 large-6 columns">
+    <%= f.text_field :title %>
+        </div>
+      </div>
+    </div>
+    <div  style="display: none;">
+      <%= f.label :path %><br>
+      <%= f.text_field :path, value: @url %>
+    </div>
+    <div class="small-4 large-4 columns">
+      <div class="row">
+        <div class="small-6 large-6 columns">
+    <%= f.label :weigth, :class => 'inline' %>
+        </div>
+        <div class="small-6 large-6 columns">
+    <%= f.number_field :weigth %>
+        </div>
+      </div>
+    </div>
+    <div class="small-2 large-2 columns">
+      <div class="row">
+        <div class="small-12 large-12 columns">
+    <%= f.label :private, :class => 'inline' do %>
+      <%= f.check_box :private %>
+      <span class="custom checkbox"></span> <%= t(:private) %>
+    <% end %>
+        </div>
+      </div>
+    </div>
+    <div class="small-2 large-2 columns inline">
+      <%= f.submit :class => "inline button small" %>
+    </div>
+  <% end %>
       </div>
     </div>
     <div class="row">

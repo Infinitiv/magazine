@@ -8,6 +8,7 @@ class ApplicationController < ActionController::Base
   before_action :set_menu_and_path
   before_action :set_menus
   before_action :set_last_publication
+  before_action :set_locale
 
   def current_user
     @current_user = User.find_by_id(session[:user_id])
@@ -81,5 +82,18 @@ class ApplicationController < ActionController::Base
   
   def set_last_publication
     @last_publication = Publication.last
+  end
+
+  def default_url_options(options={})
+    logger.debug "default_url_options is passed options: #{options.inspect}\n"
+    { locale: I18n.locale }
+  end
+
+  def set_locale
+    I18n.locale = params[:locale] || I18n.default_locale
+  end
+
+  def set_news
+    @news = ArticleType.where(name: 'news').articles.limit(5)
   end
 end

@@ -1,49 +1,19 @@
-<p id="notice"><%= notice %></p>
-
 <p>
-  <strong>Title ru:</strong>
-  <%= @publication.title_ru %>
+  <strong><%= t('.issue') %></strong>
+  <%= link_to "#{t('.year', :default => 'Год')} #{@issue.year}, #{t('.volume', :default => 'Том')} #{@issue.volume}, #{t('.num', :default => '№')} #{@issue.number}", @issue %>
 </p>
+<h1>
+  <%= params[:locale] == 'ru' ? @publication.title_ru : @publication.title_en %>
+</h1>
+<dl>
+  <dt><%= t('.authors') %>
+    <dd><%= params[:locale] == 'ru' ? @publication.authors_ru : @publication.authors_en %>
+  <dt><%= t('.keywords') %>
+    <dd><%= params[:locale] == 'ru' ? @publication.keywords_ru : @publication.keywords_en %>
+  <dt><%= t('.abstract') %>
+    <dd><%= params[:locale] == 'ru' ? @publication.abstract_ru : @publication.abstract_en %>
+</dl>
 
-<p>
-  <strong>Title en:</strong>
-  <%= @publication.title_en %>
-</p>
-
-<p>
-  <strong>Authors ru:</strong>
-  <%= @publication.authors_ru %>
-</p>
-
-<p>
-  <strong>Authors en:</strong>
-  <%= @publication.authors_en %>
-</p>
-
-<p>
-  <strong>Keywords ru:</strong>
-  <%= @publication.keywords_ru %>
-</p>
-
-<p>
-  <strong>Keywords en:</strong>
-  <%= @publication.keywords_en %>
-</p>
-
-<p>
-  <strong>Abstract ru:</strong>
-  <%= @publication.abstract_ru %>
-</p>
-
-<p>
-  <strong>Abstract en:</strong>
-  <%= @publication.abstract_en %>
-</p>
-
-<p>
-  <strong>Issue:</strong>
-  <%= link_to "Год #{@issue.year}, том #{@issue.volume}, номер #{@issue.number}", @issue %>
-</p>
 
 <%= form_for(@attachment, :url => attachments_path) do |f| %>
   <div style="display: none;">
@@ -53,9 +23,8 @@
     <%= f.file_field :file %>
   </div>
   <div class="actions">
-    <%= f.submit 'Прикрепить файл' %>
+    <%= f.submit t('.attach', :default => 'Прикрепить файл'), class: 'button small' %>
   </div>
 <% end %>
 
-<%= link_to 'Edit', edit_issue_publication_path(@issue, @publication) %> |
-<%= link_to 'Back', issue_publications_path(@issue) %>
+<%= link_to 'Edit', edit_issue_publication_path(@issue, @publication), class: 'button small' %>

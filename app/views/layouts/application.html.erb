@@ -38,6 +38,7 @@
 	<% end %>
 	</ul>
 	<ul class="right">
+    <li><%= link_to params[:locale] == 'ru' ? 'En' : 'Рус', '#' %>
 	  <li class="divider"></li>
 	  <li><%= @current_user ? link_to("Выйти", logout_path) : link_to("Войти", login_path) %></li>
 	</ul>

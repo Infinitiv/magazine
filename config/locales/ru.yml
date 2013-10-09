@@ -248,22 +248,18 @@ ru:
       long: ! '%d %B %Y, %H:%M'
       short: ! '%d %b, %H:%M'
     pm: вечера
-  users:
 
-      section_title:    "Список пользователей"
-      login:    "Пользователь"
-      password: "Пароль"
-      first_name:       "Имя"
-      last_name:       "Фамилия"
-      admin:    "Администратор"
-      master:   "Мастер"
-      user:     "Пользователь"
-      guest:    "Гость"
-      email:    "Электронная почта"
-      phone:    "Телефон"
-      role:     "Роль"
-  faculties:
-    title: "Факультет"
+  publications:
+    show:
+      issue: "Выпуск:"
+      year: "год"
+      volume: "том"
+      num: "№"
+      authors: "Авторы"
+      keywords: "Ключевые слова"
+      abstract: "Резюме"
+      attach: "Прикрепить файл"
+
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:
     errors:
