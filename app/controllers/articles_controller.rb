@@ -7,7 +7,7 @@ class ArticlesController < ApplicationController
   # GET /articles
   # GET /articles.json
   def index
-    @articles = Article.all
+    @articles = ArticleType.where(name: 'articles').first.articles.limit(5)
   end
 
   # GET /articles/1

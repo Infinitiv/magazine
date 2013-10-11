@@ -7,6 +7,7 @@ class ApplicationController < ActionController::Base
   layout :user_layout
   before_action :set_menu_and_path
   before_action :set_menus
+  before_action :set_news
   before_action :set_last_issue
   before_action :set_locale
 
@@ -94,6 +95,6 @@ class ApplicationController < ActionController::Base
   end
 
   def set_news
-    @news = ArticleType.where(name: 'news').articles.limit(5)
+    @news = ArticleType.where(name: 'news').first.articles.limit(5)
   end
 end
