@@ -56,6 +56,10 @@ class ApplicationController < ActionController::Base
     current_user.group.editor unless current_user.nil?
   end
 
+  def set_editor_permission
+    @editor_permission = current_user_editor?
+  end
+
   def current_user_administrator?
     current_user.group.administrator unless current_user.nil?
   end

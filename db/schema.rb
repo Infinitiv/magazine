@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131001173346) do
+ActiveRecord::Schema.define(version: 20131011055934) do
 
   create_table "article_types", force: true do |t|
     t.string   "name"
@@ -58,6 +58,14 @@ ActiveRecord::Schema.define(version: 20131001173346) do
   create_table "attachments_publications", id: false, force: true do |t|
     t.integer "publication_id", null: false
     t.integer "attachment_id",  null: false
+  end
+
+  create_table "feedbacks", force: true do |t|
+    t.text     "question"
+    t.text     "answer"
+    t.boolean  "public"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "groups", force: true do |t|

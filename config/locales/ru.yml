@@ -267,6 +267,7 @@ ru:
       users:  "Пользователи"
       groups: "Группы"
       isma: "ИвГМА"
+      faq: "FAQ"
 
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

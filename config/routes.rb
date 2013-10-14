@@ -1,4 +1,6 @@
 Magazine::Application.routes.draw do
+  resources :feedbacks
+
   resources :menus
 
   resources :articles

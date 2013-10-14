@@ -1,0 +1,20 @@
+<h1>Listing feedbacks</h1>
+<%= link_to 'New Feedback', new_feedback_path %>
+<dl>
+  <% @feedbacks.each do |feedback| %>
+    <div class="panel">
+    <dt><%= feedback.question %>
+    <dd><%= feedback.answer %>
+    </div>
+    <% if @editor_permission %>
+      <div>
+        <ul class="button-group">
+          <li><%= link_to 'Edit', edit_feedback_path(feedback), class: "small button" %>
+          <li><%= link_to 'Destroy', feedback, method: :delete, data: { confirm: 'Are you sure?' }, class: "small button alert" %>
+        </ul>
+      </div>
+    <% end %>
+  <% end %>
+</dl>
+
+
