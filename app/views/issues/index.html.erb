@@ -1,7 +1,9 @@
-<h1>Listing issues</h1>
+<h1><%= t(:listing_issues, scope: :issues) %></h1>
+<% if @editor_permission %>
 <%= form_tag import_issues_path, multipart: true do %>
   <%= file_field_tag :file %>
   <%= submit_tag "Import", :class => 'small button' %>
+<% end %>
 <% end %>
 
 <ul>
@@ -11,4 +13,4 @@
 </ul>
 
 <br>
-<%= link_to 'New Issue', new_issue_path %>
+<%= link_to 'New Issue', new_issue_path if @editor_permission %>

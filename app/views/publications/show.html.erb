@@ -14,7 +14,7 @@
     <dd><%= params[:locale] == 'ru' ? @publication.abstract_ru : @publication.abstract_en %>
 </dl>
 
-
+<% if @editor_permission %>
 <%= form_for(@attachment, :url => attachments_path) do |f| %>
   <div style="display: none;">
     <%= text_field_tag :publication_id, @publication.id %>
@@ -28,3 +28,4 @@
 <% end %>
 
 <%= link_to 'Edit', edit_issue_publication_path(@issue, @publication), class: 'button small' %>
+<% end %>

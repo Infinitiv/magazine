@@ -1,6 +1,6 @@
 <header>
 <h1>
-<%= link_to params[:locale] == 'ru' ? article.title_ru : article.title_en, article %>
+<%= link_to params[:locale] == 'en' ? article.title_en : article.title_ru, article %>
 </h1>
 <p>
   <% case article.updated_at.to_date %>

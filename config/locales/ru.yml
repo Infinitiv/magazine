@@ -259,7 +259,7 @@ ru:
       abstract: "Резюме"
       attach: "Прикрепить файл"
   layout:
-    admin:
+    common:
       fresh_issue: "Свежий номер"
       log_out: "Выйти"
       sign_in: "Войти"

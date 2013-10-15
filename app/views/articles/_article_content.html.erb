@@ -1,7 +1,6 @@
   <%= render partial: 'first_image_attachment', locals: {image_attachment: @first_image_attachment } if @first_image_attachment %>
   
   <% if params[:locale] == 'ru' %>
-  <p><%= controller.action_name %>
     <% if controller.action_name == 'show' || article.content_ru.length < 255 %>
       <%= markdown(article.content_ru) %>
     <% else %>

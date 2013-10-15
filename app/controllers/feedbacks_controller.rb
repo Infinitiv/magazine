@@ -1,5 +1,5 @@
 class FeedbacksController < ApplicationController
-  skip_before_action :require_login, only: [:index, :new]
+  skip_before_action :require_login, only: [:index, :new, :create]
   before_action :require_editor, only: [:edit, :update, :destroy]
   before_action :set_editor_permission, only: [:index, :new]
   before_action :set_feedback, only: [:show, :edit, :update, :destroy]
@@ -31,7 +31,7 @@ class FeedbacksController < ApplicationController
 
     respond_to do |format|
       if @feedback.save
-        format.html { redirect_to @feedback, notice: 'Feedback was successfully created.' }
+        format.html { redirect_to feedbacks_url, notice: 'Feedback was successfully created.' }
         format.json { render action: 'show', status: :created, location: @feedback }
       else
         format.html { render action: 'new' }
@@ -45,7 +45,7 @@ class FeedbacksController < ApplicationController
   def update
     respond_to do |format|
       if @feedback.update(feedback_params)
-        format.html { redirect_to @feedback, notice: 'Feedback was successfully updated.' }
+        format.html { redirect_to feedbacks_url, notice: 'Feedback was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

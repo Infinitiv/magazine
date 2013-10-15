@@ -1,4 +1,5 @@
 class AttachmentsController < ApplicationController
+  skip_before_action :require_login, only: [:show, :minify_img]
   before_action :set_attachment, only: [:show, :destroy, :minify_img]
   before_action :require_administrator, only: [:index]
 

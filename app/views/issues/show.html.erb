@@ -1,9 +1,9 @@
 <h1><%= "#{t('.year', :default => 'Год')} #{@issue.year}, #{t('.volume', :default => 'Том')} #{@issue.volume}, #{t('.num', :default => '№')} #{@issue.number}" %></h1>
-<%= render 'publications/form' %>
+<%= render 'publications/form' if @editor_permission %>
 <ul>
   <% @publications.each do |publication| %>
     <li><%=  link_to params[:locale] == 'ru' ? publication.title_ru : publication.title_en, issue_publication_path(@issue, publication) %>
   <% end %>
 </ul>
-<%= link_to 'Edit', edit_issue_path(@issue), :class => 'small button' %> |
-<%= link_to 'Back', issues_path, :class => 'small button' %>
+<%= link_to 'Edit', edit_issue_path(@issue), :class => 'small button' if @editor_permission %> |
+<%= link_to 'Back', issues_path, :class => 'small button' if @editor_permission %>

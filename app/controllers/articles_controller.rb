@@ -1,4 +1,5 @@
 class ArticlesController < ApplicationController
+  skip_before_action :require_login, only: [:show]
   before_action :require_editor, only: [:edit, :update, :create, :destroy]
   before_action :set_editor_permission, only: [:index, :show]
   before_action :set_article, only: [:show, :edit, :update, :destroy]

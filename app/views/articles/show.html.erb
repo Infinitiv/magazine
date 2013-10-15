@@ -5,6 +5,7 @@
 <ul class="no-bullet">
 <%= render partial: 'not_image_attachment', collection: @not_image_attachments %>
 </ul>
+<%  if @editor_permission %>
 <%= form_for(@attachment, :url => attachments_path) do |f| %>
   <div style="display: none;">
     <%= text_field_tag :article_id, @article.id %>
@@ -16,5 +17,6 @@
     <%= f.submit 'Прикрепить файл' %>
   </div>
 <% end %>
-<%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Back', articles_path %>
+<% end %>
+<%= link_to 'Edit', edit_article_path(@article) if @editor_permission %>
+<%= link_to 'Back', articles_path if @editor_permission %>
