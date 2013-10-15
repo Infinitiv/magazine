@@ -1,0 +1,5 @@
+<ol>
+<% @search.each do |search| %>
+  <li><%= search.class == Attachment ? (link_to search.title, search) : (link_to search.title_ru, issue_publication_path(search.issue, search)) %>
+<% end %>
+</ol>

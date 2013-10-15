@@ -57,3 +57,5 @@ gem 'nokogiri'
 gem 'redcarpet'
 
 gem 'reverse_markdown'
+
+gem 'thinking-sphinx'
