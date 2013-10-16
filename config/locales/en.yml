@@ -20,4 +20,23 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  publications:
+    show:
+      issue: "Issue:"
+      year: "year"
+      volume: "volume"
+      num: "#"
+      authors: "Authors"
+      keywords: "Keywords"
+      abstract: "Abstarct"
+      attach: "Attach"
+  layout:
+    common:
+      fresh_issue: "Fresh Issue"
+      log_out: "Log out"
+      sign_in: "Sign in"
+      issues: "Issues"
+      users:  "Users"
+      groups: "Groups"
+      isma: "ISMA"
+      faq: "FAQ"
