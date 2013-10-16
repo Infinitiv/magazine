@@ -4,7 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   before_action :current_user
   before_action :require_login
-  layout :user_layout
   before_action :set_menu_and_path
   before_action :set_menus
   before_action :set_news
@@ -62,14 +61,6 @@ class ApplicationController < ActionController::Base
 
   def current_user_administrator?
     current_user.group.administrator unless current_user.nil?
-  end
-  
-  def user_layout
-    if current_user_administrator?
-      "admin"
-    else
-      "application"
-    end
   end
   
   def set_menu_and_path
