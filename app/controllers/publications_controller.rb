@@ -1,7 +1,6 @@
 class PublicationsController < IssuesController
   skip_before_action :require_login, only: [:show]
   before_action :require_editor, only: [:index, :new, :edit, :create, :update, :destroy]
-  before_action :set_editor_permission, only: [:index, :show]
   before_action :set_issue, only: [:index, :show, :edit, :create, :update, :destroy]
   before_action :set_publication, only: [:show, :edit, :update, :destroy]
 

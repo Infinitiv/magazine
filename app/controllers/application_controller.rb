@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   before_action :current_user
   before_action :require_login
+  before_action :set_editor_permission
   before_action :set_menu_and_path
   before_action :set_menus
   before_action :set_news
@@ -65,7 +66,7 @@ class ApplicationController < ActionController::Base
   
   def set_menu_and_path
     @menu = Menu.new
-    @url = request.fullpath
+    @url = request.path
   end
   
   def set_menus
