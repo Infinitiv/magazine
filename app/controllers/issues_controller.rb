@@ -7,7 +7,8 @@ class IssuesController < ApplicationController
   # GET /issues
   # GET /issues.json
   def index
-    @issues = Issue.order(:year, :volume, :number).all
+    @issues = issues
+    @years = Issue.all.map(&:year).uniq.sort
   end
 
   # GET /issues/1
@@ -80,5 +81,14 @@ class IssuesController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def issue_params
       params.require(:issue).permit(:year, :volume, :number)
+    end
+
+    def issues
+      issues = {}
+      years = Issue.all.map(&:year).uniq
+      years.each do |year|
+        issues[year] = Issue.order(:year, :volume, :number).where(year: year)
+      end
+      issues
     end
 end

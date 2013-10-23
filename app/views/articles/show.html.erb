@@ -1,3 +1,4 @@
+<article class="panel">
 <%= render partial: 'article', locals: { article: @article } %>
 <ul class="clearing-thumbs" data-clearing>
 <%= render partial: 'image_attachment', collection: @image_attachments %>
@@ -5,6 +6,7 @@
 <ul class="no-bullet">
 <%= render partial: 'not_image_attachment', collection: @not_image_attachments %>
 </ul>
+</article>
 <%  if @editor_permission %>
 <%= form_for(@attachment, :url => attachments_path) do |f| %>
   <div style="display: none;">

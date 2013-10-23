@@ -1,0 +1,36 @@
+body {
+  background-image: url("/assets/isma.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+article > p {
+  font-size : 0.9em;
+  line-height : normal;
+  text-align : justify;
+}
+.timestamp, .authors {
+  font-size : 0.95em;
+  line-height : normal;
+  font-style : italic;
+}
+article > header > h1 {
+  font-size : 1em;
+  line-height : normal;
+  text-align : left;
+}
+article > a {
+  margin-right : 1em;
+}
+.panel {
+  border-radius : 10px;
+  border : 1px solid gray;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding : 1em;
+  background-color: rgba(237,237,237,0.9);
+}
+.title {
+  color : #cd2626;
+  font-family : Garamond, serif;
+  font-size : 200%; 
+}

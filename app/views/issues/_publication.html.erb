@@ -1,0 +1,3 @@
+<li><p class="authors"><%= params[:locale] == 'en' ? publication.authors_en : publication.authors_ru %>
+<p><%= link_to params[:locale] == 'en' ? publication.title_en : publication.title_ru, issue_publication_path(@issue, publication) %>
+<hr /></li>

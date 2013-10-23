@@ -1,19 +1,26 @@
+<article class="panel">
 <p>
   <strong><%= t('.issue') %></strong>
   <%= link_to "#{t('.year', :default => 'Год')} #{@issue.year}, #{t('.volume', :default => 'Том')} #{@issue.volume}, #{t('.num', :default => '№')} #{@issue.number}", @issue %>
 </p>
+<p class="authors"><%= params[:locale] == 'en' ? @publication.authors_en : @publication.authors_ru %>
 <h1>
-  <%= params[:locale] == 'ru' ? @publication.title_ru : @publication.title_en %>
+  <%= params[:locale] == 'en' ? @publication.title_en : @publication.title_ru %>
 </h1>
+<%= render partial: 'articles/first_image_attachment', locals: {image_attachment: @first_image_attachment } if @first_image_attachment %>
 <dl>
-  <dt><%= t('.authors') %>
-    <dd><%= params[:locale] == 'ru' ? @publication.authors_ru : @publication.authors_en %>
   <dt><%= t('.keywords') %>
-    <dd><%= params[:locale] == 'ru' ? @publication.keywords_ru : @publication.keywords_en %>
+    <dd><%= params[:locale] == 'en' ? @publication.keywords_en : @publication.keywords_ru %>
   <dt><%= t('.abstract') %>
-    <dd><%= params[:locale] == 'ru' ? @publication.abstract_ru : @publication.abstract_en %>
+    <dd><%= params[:locale] == 'en' ? @publication.abstract_en : @publication.abstract_ru %>
 </dl>
-
+<ul class="clearing-thumbs" data-clearing>
+<%= render partial: 'articles/image_attachment', collection: @image_attachments %>
+</ul>
+<ul class="no-bullet">
+<%= render partial: 'articles/not_image_attachment', collection: @not_image_attachments %>
+</ul>
+</article>
 <% if @editor_permission %>
 <%= form_for(@attachment, :url => attachments_path) do |f| %>
   <div style="display: none;">
