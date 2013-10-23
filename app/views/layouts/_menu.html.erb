@@ -6,8 +6,6 @@
   </ul>
   <section class="top-bar-section">
     <ul class="left">
-      <li class="divider"></li>
-      <li><%= link_to t(:fresh_issue, scope: [:layout, :common]), issue_path(@last_issue) %>
         <% @menus.each do |menu| %>
           <li class="divider"></li>
           <li><%= link_to t(menu.title.to_sym, scope: [:layout, :common]), menu.path + "?locale=#{params[:locale]}" %>
