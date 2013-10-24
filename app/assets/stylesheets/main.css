@@ -9,6 +9,11 @@ article > p {
   line-height : normal;
   text-align : justify;
 }
+
+article > ul {
+  list-style-position: inside;
+  font-size: 0.85em;
+}
 .timestamp, .authors {
   font-size : 0.95em;
   line-height : normal;
