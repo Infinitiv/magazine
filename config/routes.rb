@@ -26,7 +26,7 @@ Magazine::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-  root 'users#index'
+  root 'articles#show', id: 1
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
