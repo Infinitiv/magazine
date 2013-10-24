@@ -1,20 +1,20 @@
  <%= render partial: 'first_image_attachment', locals: {image_attachment: @first_image_attachment } if @first_image_attachment %>
-  <% if params[:locale] == 'ru' %>
-    <% if controller.action_name == 'show' || article.content_ru.length < 255 %>
-      <%= markdown(article.content_ru) %>
+  <% if params[:locale] == 'en' %>
+    <% if controller.action_name == 'show' || article.content_en.length < 255 %>
+      <%= markdown(article.content_en) %>
     <% else %>
-        <%= markdown(truncate(article.content_ru, :length => 255, :omission => '... ', :separator => ' ')) %>
+        <%= markdown(truncate(article.content_en, :length => 255, :omission => '... ', :separator => ' ')) %>
         <%= link_to ' Читать дальше', article %>
     <% end %>
   <% else %>
     <% if controller.action_name == 'show' %>
-      <%= markdown(article.content_en) %>
+      <%= markdown(article.content_ru) %>
     <% else %>
       <% if article.content_en.length > 255 %>
-        <%= markdown(truncate(article.content_en, :length => 255, :omission => '... ', :separator => ' ')) %>
+        <%= markdown(truncate(article.content_ru, :length => 255, :omission => '... ', :separator => ' ')) %>
         <%= link_to ' Читать дальше', article %>
       <% else %>
-        <%= markdown(article.content_en) %>
+        <%= markdown(article.content_ru) %>
       <% end %>
     <% end %>
   <% end %>
