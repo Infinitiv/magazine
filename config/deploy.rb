@@ -24,13 +24,15 @@ role :db,  "isma_ror", :primary => true # This is where Rails migrations will ru
 #     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
 #   end
 # end
-set :use_sudo, true
+set :use_sudo, false
 set :user, "markovnin"
-set :password, "user"
 
 namespace :deploy do
   desc "Restart the Thin processes"
   task :restart do
+  	set :use_sudo, true
+    set :user, "markovnin"
+    set :password, "user"
     run "service thin restart"
   end
 end
