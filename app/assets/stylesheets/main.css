@@ -4,7 +4,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
-article > p {
+article {
   font-size : 0.9em;
   line-height : normal;
   text-align : justify;
