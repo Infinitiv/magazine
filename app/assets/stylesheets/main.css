@@ -10,11 +10,11 @@ article {
   text-align : justify;
 }
 
-article > ul {
+ul {
   list-style-position: inside;
   font-size: 0.85em;
 }
-article > ol {
+ol {
   list-style-position: inside;
   font-size: 0.85em;
 }
