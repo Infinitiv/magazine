@@ -260,14 +260,15 @@ ru:
       attach: "Прикрепить файл"
   layout:
     common:
-      fresh_issue: "Свежий номер"
       log_out: "Выйти"
       sign_in: "Войти"
       issues: "Выпуски"
       users:  "Пользователи"
       groups: "Группы"
       isma: "ИвГМА"
-      faq: "FAQ"
+      feedbacks: "Задать вопрос"
+      about_us: "О нас"
+      send_publication: "Подать статью"
 
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

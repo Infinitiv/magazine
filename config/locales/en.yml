@@ -39,4 +39,6 @@ en:
       users:  "Users"
       groups: "Groups"
       isma: "ISMA"
-      faq: "FAQ"
+      feedbacks: "Ask a question"
+      about_us: "About us"
+      send_publication: "Send publication"

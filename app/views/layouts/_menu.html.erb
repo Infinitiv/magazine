@@ -14,7 +14,7 @@
     <ul class="right">
       <li><%= params[:locale] == 'en' ? link_to('Рус', url_for(:locale => :ru)) : link_to('En', url_for(:locale => :en)) %>
       <li class="divider"></li>
-      <li><%= @current_user ? link_to(t(:log_out, scope: [:layout, :common]), logout_path) : link_to(t(:sign_in, scope: [:layout]), login_path) %></li>
+      <li><%= @current_user ? link_to(t(:log_out, scope: [:layout, :common]), logout_path) : link_to(t(:sign_in, scope: [:layout, :common]), login_path) %></li>
     </ul>
   </section>
 </nav>
