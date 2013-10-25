@@ -8,7 +8,7 @@
     <ul class="left">
         <% @menus.each do |menu| %>
           <li class="divider"></li>
-          <li><%= link_to t(menu.title.to_sym, scope: [:layout, :common]), menu.path + "?locale=#{params[:locale]}" %>
+          <li><%= link_to t(menu.title.to_sym, scope: [:layout, :common]), menu.path + "?locale=#{params[:locale] ? params[:locale] : 'ru'}" %>
         <% end %>
     </ul>
     <ul class="right">
