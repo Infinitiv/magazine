@@ -10,26 +10,24 @@ article {
   text-align : justify;
 }
 
-ul {
+ul, ol {
   list-style-position: inside;
-  font-size: 0.85em;
-}
-ol {
-  list-style-position: inside;
-  font-size: 0.85em;
+  font-size: 0.9em;
 }
 .timestamp, .authors {
   font-size : 0.95em;
-  line-height : normal;
+  line-height: normal;
   font-style : italic;
 }
 article > header > h1 {
-  font-size : 1em;
-  line-height : normal;
+  font-size : 1.5em;
   text-align : left;
 }
 article > a {
   margin-right : 1em;
+}
+article > h2 {
+  font-size : 1.2em;
 }
 .panel {
   border-radius : 10px;
@@ -38,8 +36,12 @@ article > a {
   padding : 1em;
   background-color: rgba(237,237,237,0.9);
 }
-.title {
+.title > h1 {
   color : #cd2626;
   font-family : Garamond, serif;
-  font-size : 200%; 
+  font-size : 250%;
+}
+
+.title > img {
+  margin-right: 1em;
 }

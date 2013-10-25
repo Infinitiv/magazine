@@ -1254,6 +1254,8 @@ $topbar-bg: #104e8b;
 // $topbar-title-weight: bold;
 // $topbar-title-font-size: emCalc(17);
 
+$topbar-title-font-size: emCalc(22);
+
 // Style the top bar dropdown elements
 
 // $topbar-dropdown-bg: #222;
@@ -1270,6 +1272,9 @@ $topbar-bg: #104e8b;
 // $topbar-link-color-active: #fff;
 // $topbar-link-weight: bold;
 // $topbar-link-font-size: emCalc(13);
+
+$topbar-link-font-size: emCalc(22);
+
 // $topbar-link-hover-lightness: -30%; // Darken by 30%
 // $topbar-link-bg-hover: darken($topbar-bg, 3%);
 // $topbar-link-bg-active: darken($topbar-bg, 3%);

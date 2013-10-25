@@ -30,15 +30,14 @@
   <% end %>
 </div>
     <div class="row">
-          <div class="small-4 small-offset-8 large-4 large-offset-8 columns">
+      <div class="small-12 large-12 columns title">
+      <div class="right">
             <%= render 'search/form' %>
-          </div>
-     <div class="small-12 large-12 columns"><%= image_tag("gerb.png", size: '96', class: "left") %><h1 class="title">&nbspВестник Ивановской медицинской академии</h1></div>
-
-
-
-<%= render partial: 'layouts/menu_form' if @editor_permission %>
+      </div>
+      <%= image_tag("gerb.png", size: '96', class: "left") %><h1>Вестник<br />Ивановской медицинской академии</h1>
+      </div>
     </div>
+<%= render partial: 'layouts/menu_form' if @editor_permission %>
      <div class="row">
       <div class="small-3 large-2 columns"><h1>Новости</h1>
       <ul class="no-bullet">
