@@ -39,10 +39,11 @@
     </div>
 <%= render partial: 'layouts/menu_form' if @editor_permission %>
      <div class="row">
-      <div class="small-3 large-2 columns panel"><h1>Новости</h1>
+      <div class="small-3 large-2 columns panel news"><h1>Новости</h1>
       <ul class="no-bullet">
-        <%= render partial: 'layouts/news', collection: @news %></div>
+        <%= render partial: 'layouts/news', collection: @news %>
       </ul>
+      </div>
       <div class="small-9 large-10 columns">
         <%= yield %>
       </div>
