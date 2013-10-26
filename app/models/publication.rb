@@ -30,7 +30,7 @@ class Publication < ActiveRecord::Base
     end
   end
 
-    def self.import_old(xml, id)
+  def self.import_old(xml, id)
     xml.each do |p|
       title_ru = ''
       title_en = ''
