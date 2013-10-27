@@ -7,7 +7,7 @@ class FeedbacksController < ApplicationController
   # GET /feedbacks
   # GET /feedbacks.json
   def index
-    @feedbacks = @editor_permission ? Feedback.all : Feedback.where(public: true)
+    @feedbacks = @editor_permission ? Feedback.order('updated_at DESC').all : Feedback.order('updated_at DESC').where(public: true)
   end
 
   # GET /feedbacks/1
