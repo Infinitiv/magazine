@@ -48,3 +48,6 @@ article > h2 {
 .title > img {
   margin-right: 1em;
 }
+table {
+  text-align: center;
+}

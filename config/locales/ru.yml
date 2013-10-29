@@ -269,6 +269,8 @@ ru:
       feedbacks: "Задать вопрос"
       about_us: "О нас"
       send_publication: "Подать статью"
+      vestnik: "Вестник"
+      ismoi: "Ивановской медицинской академии"
 
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

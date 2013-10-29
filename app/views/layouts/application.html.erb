@@ -13,7 +13,7 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "#{t(:vestnik, scope: [:layout, :common])} #{t(:ismoi, scope: [:layout, :common])}" %></title>
 
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/custom.modernizr" %>
@@ -34,7 +34,7 @@
       <div class="right">
             <%= render 'search/form' %>
       </div>
-      <%= image_tag("gerb.png", size: '96', class: "left") %><h1>Вестник<br />Ивановской медицинской академии</h1>
+      <%= image_tag("gerb.png", size: '96', class: "left") %><h1><%= "#{t(:vestnik, scope: [:layout, :common])}" %><br /><%= "#{t(:ismoi, scope: [:layout, :common])}" %></h1>
       </div>
     </div>
 <%= render partial: 'layouts/menu_form' if @editor_permission %>
