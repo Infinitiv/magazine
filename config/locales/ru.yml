@@ -272,6 +272,11 @@ ru:
       vestnik: "Вестник"
       ismoi: "Ивановской медицинской академии"
       search: "Найти"
+  session:
+    sign_in: "Вход"
+    login: "Имя"
+    password: "Пароль"
+    submit: "Войти"
 
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

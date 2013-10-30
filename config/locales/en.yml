@@ -45,3 +45,8 @@ en:
       vestnik: "Bulletin"
       ismoi: "of Ivanovo Medical Academy"
       search: "Search"
+  session:
+    sign_in: "Sign in"
+    login: "Login"
+    password: "Password"
+    submit: "Submit"

@@ -1,11 +1,11 @@
 <div class="row">
 <%= form_tag login_path do %>
-  <fieldset class="small-4 small-centered columns panel">
+  <fieldset class="small-5 small-centered columns panel">
     <div>
-    <legend>Вход</legend>
+    <legend><%= t(:sign_in, scope: [:session]) %></legend>
   <div class="row">
     <div class="small-3 columns">
-      <%= label_tag :login, 'Имя', :class => 'right inline' %>
+      <%= label_tag :login, t(:login, scope: [:session]), :class => 'right inline' %>
     </div>
     <div class="small-9 columns">
       <%= text_field_tag :login, params[:login] %>
@@ -13,14 +13,14 @@
   </div>
   <div class="row">
     <div class="small-3 columns">
-      <%= label_tag :password, 'Пароль', :class => 'right inline' %>
+      <%= label_tag :password, t(:password, scope: [:session]), :class => 'right inline' %>
     </div>
     <div class="small-9 columns">
       <%= password_field_tag :password, params[:password] %>
     </div>
   </div>
   <div class="small-3 columns">
-    <%= submit_tag 'Войти', :class => 'small button' %>
+    <%= submit_tag t(:submit, scope: [:session]), :class => 'small button' %>
   </div>
 </div>
   </fieldset>
