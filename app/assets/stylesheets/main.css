@@ -51,3 +51,6 @@ article > h2 {
 table {
   text-align: center;
 }
+.rows-40 {
+  height: 40em;
+}
