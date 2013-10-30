@@ -32,6 +32,6 @@ namespace :deploy do
   task :restart do
   	set :use_sudo, true
     set :sudo_user, "markovnin"
-    run "service thin restart"
+    run "#{try_sudo} service thin restart"
   end
 end
