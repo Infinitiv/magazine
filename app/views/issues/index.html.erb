@@ -1,5 +1,5 @@
 <div class="panel">
-<h1><%= t(:listing_issues, scope: :issues) %></h1>
+<h1><%= t(:listing_issues, scope: [:issues]) %></h1>
 <% if @editor_permission %>
 <%= form_tag import_issues_path, multipart: true do %>
   <%= file_field_tag :file %>
@@ -14,10 +14,10 @@
   <% @years.each do |year| %>
 	<% i += 1 %>
 			<td>
-    <h2><%= "#{year} год" %></h2>
+    <h2><%= "#{year} #{t(:year, scope: [:publications, :show])}" %></h2>
     <ul class="no-bullet">
 	  <% @issues[year].each do |issue| %>
-	    <li><%= link_to "Год #{issue.year}, Т. #{issue.volume}, № #{issue.number}", issue %>
+	    <li><%= link_to "#{t(:year, scope: [:publications, :show])} #{issue.year}, #{t(:volume, scope: [:publications, :show])} #{issue.volume}, #{t(:num, scope: [:publications, :show])} #{issue.number}", issue %>
 	  <% end %>
     </ul>
 </td>

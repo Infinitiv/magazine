@@ -3,16 +3,16 @@
   <strong><%= t('.issue') %></strong>
   <%= link_to "#{t('.year', :default => 'Год')} #{@issue.year}, #{t('.volume', :default => 'Том')} #{@issue.volume}, #{t('.num', :default => '№')} #{@issue.number}", @issue %>
 </p>
-<p class="authors"><%= params[:locale] == 'en' ? @publication.authors_en : @publication.authors_ru %>
+<p class="authors"><%= params[:locale] == 'en' ? (@publication.authors_en.length > 0 ? @publication.authors_en : "Unavailable in English") : (@publication.authors_ru.length > 0 ? @publication.authors_ru : "Недоступно на русском языке") %>
 <h1>
-  <%= params[:locale] == 'en' ? @publication.title_en : @publication.title_ru %>
+  <%= params[:locale] == 'en' ? (@publication.title_en ? @publication.title_en : "Unavailable in English") : (@publication.title_ru.length > 0 ? @publication.title_ru : "Недоступно на русском языке") %>
 </h1>
 <%= render partial: 'articles/first_image_attachment', locals: {image_attachment: @first_image_attachment } if @first_image_attachment %>
 <dl>
   <dt><%= t('.keywords') %>
-    <dd><%= params[:locale] == 'en' ? @publication.keywords_en : @publication.keywords_ru %>
+    <dd><%= params[:locale] == 'en' ? (@publication.keywords_en.length > 0 ? @publication.keywords_en : "Unavailable in English") : (@publication.keywords_ru.length > 0 ? @publication.keywords_ru : "Недоступно на русском языке") %>
   <dt><%= t('.abstract') %>
-    <dd><%= params[:locale] == 'en' ? @publication.abstract_en : @publication.abstract_ru %>
+    <dd><%= params[:locale] == 'en' ? (@publication.abstract_en ? @publication.abstract_en : "Unavailable in English") : (@publication.abstract_ru ? @publication.abstract_ru : "Недоступно на русском языке") %>
 </dl>
 <ul class="clearing-thumbs" data-clearing>
 <%= render partial: 'articles/image_attachment', collection: @image_attachments %>

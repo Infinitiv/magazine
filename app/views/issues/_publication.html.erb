@@ -1,3 +1,3 @@
-<li><p class="authors"><%= params[:locale] == 'en' ? publication.authors_en : publication.authors_ru %>
-<p><%= link_to params[:locale] == 'en' ? publication.title_en : publication.title_ru, issue_publication_path(@issue, publication) %>
+<li><p class="authors"><%= params[:locale] == 'en' ? (publication.authors_en.length > 0 ? publication.authors_en : "Unavailable in English") : (publication.authors_ru.length > 0 ? publication.authors_ru : "Недоступно на русском языке") %>
+<p><%= link_to params[:locale] == 'en' ? (publication.title_en ? publication.title_en : "Unavailable in English") : (publication.title_ru ? publication.title_ru : "Недоступно на русском языке"), issue_publication_path(@issue, publication) %>
 <hr /></li>

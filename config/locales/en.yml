@@ -50,3 +50,5 @@ en:
     login: "Login"
     password: "Password"
     submit: "Submit"
+  issues:
+    listing_issues: "Issues listing"

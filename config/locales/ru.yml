@@ -277,6 +277,8 @@ ru:
     login: "Имя"
     password: "Пароль"
     submit: "Войти"
+  issues:
+    listing_issues: "Архив выпусков"
 
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:
