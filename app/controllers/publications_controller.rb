@@ -16,6 +16,8 @@ class PublicationsController < IssuesController
     @first_image_attachment = @publication.attachments.select {|a| a.mime_type =~ /image/}.first
     @image_attachments = @publication.attachments.select {|a| a.mime_type =~ /image/} - [@first_image_attachment]
     @not_image_attachments = @publication.attachments.select {|a| a.mime_type !~ /image/}
+    @next_publication = @issue.publications.find_by_id(params[:id].to_i + 1)
+    @previous_publication = @issue.publications.find_by_id(params[:id].to_i - 1)
   end
 
   # GET /publications/new

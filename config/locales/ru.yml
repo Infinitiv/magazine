@@ -258,6 +258,8 @@ ru:
       keywords: "Ключевые слова"
       abstract: "Резюме"
       attach: "Прикрепить файл"
+      next: "Следующая статья"
+      previous: "Предыдущая статья"
   layout:
     common:
       log_out: "Выйти"

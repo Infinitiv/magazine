@@ -30,6 +30,8 @@ en:
       keywords: "Keywords"
       abstract: "Abstarct"
       attach: "Attach"
+      next: "Next"
+      previous: "Previous"
   layout:
     common:
       fresh_issue: "Fresh Issue"

@@ -14,6 +14,10 @@
   <dt><%= t('.abstract') %>
     <dd><%= params[:locale] == 'en' ? (@publication.abstract_en ? @publication.abstract_en : "Unavailable in English") : (@publication.abstract_ru ? @publication.abstract_ru : "Недоступно на русском языке") %>
 </dl>
+<div class="left"><%= link_to t(:previous, scope: [:publications, :show]), issue_publication_path(@issue, @previous_publication) if @previous_publication %>
+</div>
+<div class="right"><%= link_to t(:next, scope: [:publications, :show]), issue_publication_path(@issue, @next_publication) if @next_publication %>
+</div>
 <ul class="clearing-thumbs" data-clearing>
 <%= render partial: 'articles/image_attachment', collection: @image_attachments %>
 </ul>
