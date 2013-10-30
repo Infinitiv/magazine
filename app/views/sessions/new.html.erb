@@ -1,6 +1,7 @@
 <div class="row">
 <%= form_tag login_path do %>
-  <fieldset class="small-4 small-centered columns">
+  <fieldset class="small-4 small-centered columns panel">
+    <div>
     <legend>Вход</legend>
   <div class="row">
     <div class="small-3 columns">
@@ -21,6 +22,7 @@
   <div class="small-3 columns">
     <%= submit_tag 'Войти', :class => 'small button' %>
   </div>
+</div>
   </fieldset>
 <% end %>
 </div>
