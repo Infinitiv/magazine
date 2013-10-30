@@ -251,8 +251,8 @@ ru:
   publications:
     show:
       issue: "Выпуск:"
-      year: "год"
-      volume: "том"
+      year: ""
+      volume: "Т."
       num: "№"
       authors: "Авторы"
       keywords: "Ключевые слова"

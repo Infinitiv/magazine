@@ -17,7 +17,7 @@
     <h2><%= "#{year} #{t(:year, scope: [:publications, :show])}" %></h2>
     <ul class="no-bullet">
 	  <% @issues[year].each do |issue| %>
-	    <li><%= link_to "#{t(:year, scope: [:publications, :show])} #{issue.year}, #{t(:volume, scope: [:publications, :show])} #{issue.volume}, #{t(:num, scope: [:publications, :show])} #{issue.number}", issue %>
+	    <li><%= link_to "#{t(:volume, scope: [:publications, :show])} #{issue.volume}, #{t(:num, scope: [:publications, :show])} #{issue.number}", issue %>
 	  <% end %>
     </ul>
 </td>

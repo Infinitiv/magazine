@@ -23,8 +23,8 @@ en:
   publications:
     show:
       issue: "Issue:"
-      year: "year"
-      volume: "volume"
+      year: ""
+      volume: "V."
       num: "#"
       authors: "Authors"
       keywords: "Keywords"

@@ -1,5 +1,5 @@
 <div class="panel">
-<h1><%= "#{t('.year', :default => 'Год')} #{@issue.year}, #{t('.volume', :default => 'Том')} #{@issue.volume}, #{t('.num', :default => '№')} #{@issue.number}" %></h1>
+<h1><%= "#{t(:year, scope: [:publications, :show])} #{@issue.year}, #{t(:volume, scope: [:publications, :show])} #{@issue.volume}, #{t(:num, scope: [:publications, :show])} #{@issue.number}" %></h1>
 <%= render 'publications/form' if @editor_permission %>
 <ul class="no-bullet">
 <%= render partial: 'publication', collection: @publications %>
