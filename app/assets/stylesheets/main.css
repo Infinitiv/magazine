@@ -57,3 +57,6 @@ table {
 .rows-40 {
   height: 40em;
 }
+.hidden {
+  display: none;
+}
