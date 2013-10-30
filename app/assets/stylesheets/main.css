@@ -39,6 +39,9 @@ article > h2 {
   padding : 1em;
   background-color: rgba(237,237,237,0.9);
 }
+h1 {
+  text-align : left;
+}
 .title > h1 {
   color : #cd2626;
   font-family : Garamond, serif;
