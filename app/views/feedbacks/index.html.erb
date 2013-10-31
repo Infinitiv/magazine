@@ -1,9 +1,9 @@
 <%= link_to t(:feedbacks, scope: [:layout, :common]), new_feedback_path, class: "small button" %>
 <dl>
   <% @feedbacks.each do |feedback| %>
-    <div class="panel">
+    <div class="panel<%= " pink" unless feedback.public %>">
     <dt><%= feedback.question %>
-    <dd><%= feedback.answer %>
+    <dd><%= markdown feedback.answer if feedback.answer %>
     </div>
     <% if @editor_permission %>
       <div>
