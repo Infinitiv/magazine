@@ -13,15 +13,13 @@
     </ul>
     <ul class="right">
 <li class="has-form">
-<div class="row collapse">
   <%= form_tag("/search", method: "get") do %>
-    <div class="small-12 large-12 columns">
+    <div>
       <%= search_field_tag :search, nil, :placeholder => t(:search, scope: [:layout, :common]) %>
     </div>
     <div class="hidden">
     <%= submit_tag t(:search, scope: [:layout, :common]), class: "button prefix" %>
     </div>
-</div>
 <% end %>
 </div>
 </li>
