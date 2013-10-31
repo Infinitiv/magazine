@@ -14,8 +14,12 @@ class IssuesController < ApplicationController
   # GET /issues/1
   # GET /issues/1.json
   def show
+    @attachment = Attachment.new
     @publications = @issue.publications.order(:id)
     @publication = @issue.publications.new
+    @first_image_attachment = @issue.attachments.select {|a| a.mime_type =~ /image/}.first
+    @image_attachments = @issue.attachments.select {|a| a.mime_type =~ /image/} - [@first_image_attachment]
+    @not_image_attachments = @issue.attachments.select {|a| a.mime_type !~ /image/}
   end
 
   # GET /issues/new

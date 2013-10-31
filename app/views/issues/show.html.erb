@@ -4,8 +4,28 @@
 <ul class="no-bullet">
 <%= render partial: 'publication', collection: @publications %>
 </ul>
+
+<ul class="clearing-thumbs" data-clearing>
+<%= render partial: 'articles/image_attachment', collection: @image_attachments %>
+</ul>
+<ul class="no-bullet">
+<%= render partial: 'articles/not_image_attachment', collection: @not_image_attachments %>
+</ul>
 </div>
+
+
 <% if @editor_permission %>
+<%= form_for(@attachment, :url => attachments_path) do |f| %>
+  <div style="display: none;">
+    <%= text_field_tag :issue_id, @issue.id %>
+  </div>  
+  <div class="filefild">
+    <%= f.file_field :file %>
+  </div>
+  <div class="actions">
+    <%= f.submit t('.attach', :default => 'Прикрепить файл'), class: 'button small' %>
+  </div>
+<% end %>
 <%= link_to 'Edit', edit_issue_path(@issue), :class => 'small button' %> |
 <%= link_to 'Back', issues_path, :class => 'small button' %>
 <% end %>
