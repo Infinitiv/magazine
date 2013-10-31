@@ -281,6 +281,9 @@ ru:
     submit: "Войти"
   issues:
     listing_issues: "Архив выпусков"
+  feedbacks:
+    back: "К списку вопросов"
+    submit: "Отправить"
 
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

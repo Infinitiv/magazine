@@ -54,3 +54,6 @@ en:
     submit: "Submit"
   issues:
     listing_issues: "Issues listing"
+  feedbacks:
+    back: "Back"
+    submit: "Submit"
