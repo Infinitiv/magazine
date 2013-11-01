@@ -16,9 +16,9 @@ class Publication < ActiveRecord::Base
       abstract_en = ''
       p.css("artTitle").each{|at| title_ru = at.content if at.attr("lang") == 'RUS'}
       publication = find_by_title_ru(title_ru) || new
-      p.css("author").each{|a| a.css("individInfo").each{|ii| authors_ru << "#{ii.at_css("surname").content} #{a.at_css("initials").content}" if ii.attr("lang") == 'RUS'}}
+      p.css("author").each{|a| a.css("individInfo").each{|ii| authors_ru << "#{ii.at_css("surname").content} #{ii.at_css("initials").content}" if ii.attr("lang") == 'RUS'}}
       publication.authors_ru = authors_ru.join(", ")
-      p.css("author").each{|a| a.css("individInfo").each{|ii| authors_en << "#{ii.at_css("surname").content} #{a.at_css("initials").content}" if ii.attr("lang") == 'ENG'}}
+      p.css("author").each{|a| a.css("individInfo").each{|ii| authors_en << "#{ii.at_css("surname").content} #{ii.at_css("initials").content}" if ii.attr("lang") == 'ENG'}}
       publication.authors_en = authors_en.join(", ")
       publication.title_ru = title_ru
       p.css("artTitle").each{|at| publication.title_en = at.content if at.attr("lang") == 'ENG'}
