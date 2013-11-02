@@ -269,11 +269,12 @@ ru:
       groups: "Группы"
       isma: "ИвГМА"
       feedbacks: "Задать вопрос"
-      about_us: "О журнале"
+      about_us: "О нас"
       send_publication: "Подать статью"
       vestnik: "Вестник"
       ismoi: "Ивановской медицинской академии"
       search: "Найти"
+      menu: "Меню"
   session:
     sign_in: "Вход"
     login: "Имя"
@@ -281,9 +282,6 @@ ru:
     submit: "Войти"
   issues:
     listing_issues: "Архив выпусков"
-  feedbacks:
-    back: "К списку вопросов"
-    submit: "Отправить"
 
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
   activemodel:

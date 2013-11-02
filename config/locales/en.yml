@@ -25,10 +25,10 @@ en:
       issue: "Issue:"
       year: ""
       volume: "V."
-      num: "No."
+      num: "#"
       authors: "Authors"
       keywords: "Keywords"
-      abstract: "Abstract"
+      abstract: "Abstarct"
       attach: "Attach"
       next: "Next"
       previous: "Previous"
@@ -42,11 +42,12 @@ en:
       groups: "Groups"
       isma: "ISMA"
       feedbacks: "Ask a question"
-      about_us: "About magazine"
+      about_us: "About us"
       send_publication: "Send publication"
       vestnik: "Bulletin"
       ismoi: "of Ivanovo Medical Academy"
       search: "Search"
+      menu: "Menu"
   session:
     sign_in: "Sign in"
     login: "Login"
@@ -54,6 +55,3 @@ en:
     submit: "Submit"
   issues:
     listing_issues: "Issues listing"
-  feedbacks:
-    back: "Back"
-    submit: "Submit"
