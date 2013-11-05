@@ -1,3 +1,6 @@
 <li>
-<%= link_to not_image_attachment.title_sen_dot, not_image_attachment, target: 'new' %>
+	<%= link_to not_image_attachment, target: 'new' do %>
+	<%= image_tag("application-pdf.png", class: "pull-left") if not_image_attachment.mime_type =~ /pdf/ %>
+<%= not_image_attachment.title_sen_dot %>
+<% end %>
 </li>
