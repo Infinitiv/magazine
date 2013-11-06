@@ -63,3 +63,6 @@ table {
 .pink {
   box-shadow: 0 0 10px rgba(204,0,0,0.5);
 }
+#first_image_attachment {
+  text-align: center;
+}

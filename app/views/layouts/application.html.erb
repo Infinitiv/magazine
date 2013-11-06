@@ -48,7 +48,12 @@
         <%= yield %>
       </div>
     </div>
-    
+    <% if @first_image_attachment %>
+      <div id="first_image_attachment" class="reveal-modal medium">
+        <%= image_tag(attachment_path(@first_image_attachment)) %>
+        <a class="close-reveal-modal">&#215;</a>
+      </div>
+    <% end %>
 
     
     <%= javascript_include_tag "application" %>
