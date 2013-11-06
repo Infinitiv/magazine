@@ -24,8 +24,8 @@ en:
     show:
       issue: "Issue:"
       year: ""
-      volume: "V."
-      num: "#"
+      volume: "Vol."
+      num: "No."
       authors: "Authors"
       keywords: "Keywords"
       abstract: "Abstarct"
