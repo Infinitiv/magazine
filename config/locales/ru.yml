@@ -264,7 +264,7 @@ ru:
     common:
       log_out: "Выйти"
       sign_in: "Войти"
-      issues: "Выпуски"
+      issues: "Архив"
       users:  "Пользователи"
       groups: "Группы"
       isma: "ИвГМА"
