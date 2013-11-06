@@ -22,7 +22,7 @@ class AttachmentsController < ApplicationController
 
       @attachment = Attachment.new
       @attachment.uploaded_file = params[:attachment]
-      @attachment.thumbnail = thumb(@attachment.data, 150) if @attachment.mime_type =~ /image/
+      @attachment.thumbnail = thumb(@attachment.data, 0.25) if @attachment.mime_type =~ /image/
       case 
       when params[:publication_id]
 	      @attachment.publications << Publication.find(params[:publication_id])
@@ -67,6 +67,6 @@ class AttachmentsController < ApplicationController
       
     def thumb(image, size)
       img = Magick::Image.from_blob(image).first
-      img.resize_to_fill!(size).to_blob
+      img.scale!(size).to_blob
     end
 end
