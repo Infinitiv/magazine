@@ -3,9 +3,7 @@
 <ul class="clearing-thumbs" data-clearing>
 <%= render partial: 'image_attachment', collection: @image_attachments %>
 </ul>
-<ul class="no-bullet">
-<%= render partial: 'not_image_attachment', collection: @not_image_attachments %>
-</ul>
+<%= render partial: 'articles/not_image_attachments', locals: {not_image_attachments: @not_image_attachments} if @not_image_attachments.count > 0 %>
 </article>
 <%  if @editor_permission %>
 <%= form_for(@attachment, :url => attachments_path) do |f| %>
