@@ -9,7 +9,7 @@ gem 'mysql2'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 gem 'zurb-foundation'
-gem 'compass-rails', '~> 2.0.alpha.0'
+gem 'compass-rails'
 gem 'sass-rails'
 gem 'uglifier'
 
@@ -31,7 +31,7 @@ group :doc do
 end
 
 # Use ActiveModel has_secure_password
-gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.1.0'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -39,7 +39,7 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'thin'
 
 # Use Capistrano for deployment
-gem 'capistrano', group: :development
+gem 'capistrano', '~> 2.15.0', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
