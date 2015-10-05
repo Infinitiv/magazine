@@ -91,6 +91,6 @@ class ApplicationController < ActionController::Base
   end
 
   def set_news
-    @news = ArticleType.where(name: 'news').first.articles.limit(5)
+    @news = ArticleType.order('updated_at DESC').where(name: 'news').first.articles.limit(5)
   end
 end
