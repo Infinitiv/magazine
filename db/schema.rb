@@ -22,8 +22,8 @@ ActiveRecord::Schema.define(version: 20131028080903) do
   create_table "articles", force: true do |t|
     t.text     "title_ru"
     t.text     "title_en"
-    t.text     "content_ru"
-    t.text     "content_en"
+    t.text     "content_ru",      limit: 2147483647
+    t.text     "content_en",      limit: 2147483647
     t.integer  "article_type_id"
     t.date     "expire"
     t.boolean  "published"
@@ -42,7 +42,7 @@ ActiveRecord::Schema.define(version: 20131028080903) do
 
   create_table "attachments", force: true do |t|
     t.string   "title"
-    t.binary   "data",       limit: 16777215
+    t.binary   "data",       limit: 2147483647
     t.string   "mime_type"
     t.binary   "thumbnail"
     t.text     "content",    limit: 16777215

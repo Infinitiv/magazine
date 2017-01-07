@@ -4,11 +4,11 @@ source 'https://rubygems.org'
 gem 'rails', '~> 4.0.0'
 
 # Use mysql as the database for Active Record
-gem 'mysql2'
+gem 'mysql2', '~> 0.3.18'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
-gem 'zurb-foundation'
+gem 'zurb-foundation', '~> 4.3.0'
 gem 'compass-rails'
 gem 'sass-rails'
 gem 'uglifier'
@@ -36,7 +36,7 @@ gem 'bcrypt-ruby', '~> 3.1.0'
 # Use unicorn as the app server
 # gem 'unicorn'
 
-gem 'thin'
+gem 'thin', '~> 1.7.0'
 
 # Use Capistrano for deployment
 gem 'capistrano', '~> 2.15.0', group: :development
