@@ -30,7 +30,7 @@
   </div>
   <% end %>
       <div class="small-12 large-12 columns title">
-      <%= image_tag("gerb.png", size: '96', class: "left") %><h1><%= "#{t(:vestnik, scope: [:layout, :common])}" %><br /><%= "#{t(:ismoi, scope: [:layout, :common])}" %></h1>
+      <%= image_tag("gerb.png", size: '96', class: "left") %><h1><%= "#{t(:vestnik, scope: [:layout, :common])}" %><br /><%= "#{t(:ismoi, scope: [:layout, :common])}" %><sup class='right'><small>(ISSN 1606-8157)</small></sup></h1>
       </div>
     </div>
 <%= render partial: 'layouts/menu_form' if @editor_permission %>
