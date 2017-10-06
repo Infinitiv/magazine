@@ -12,6 +12,10 @@ class PublicationsController < IssuesController
   # GET /publications/1
   # GET /publications/1.json
   def show
+    Publication.record_timestamps = false
+    @publication.score += 1
+    @publication.save
+    Publication.record_timestamps = true
     @attachment = Attachment.new
     @first_image_attachment = @publication.attachments.select {|a| a.mime_type =~ /image/}.first
     @image_attachments = @publication.attachments.select {|a| a.mime_type =~ /image/} - [@first_image_attachment]

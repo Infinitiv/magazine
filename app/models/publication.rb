@@ -3,7 +3,11 @@ class Publication < ActiveRecord::Base
   has_and_belongs_to_many :attachments
   
   #validates :title_ru, :authors_ru, :keywords_ru, :abstract_ru, :issue_id, :presence => true
-
+  
+  def self.score
+    [Attachment.joins(:publications).select("attachments.score").sum(:score), Publication.select(:score).sum(&:score)].sum
+  end
+  
   def self.import(xml, id)
     xml.each do |p|
       title_ru = ''

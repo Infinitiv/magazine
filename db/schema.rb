@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131028080903) do
+ActiveRecord::Schema.define(version: 20171006091928) do
 
   create_table "article_types", force: true do |t|
     t.string   "name"
@@ -48,6 +48,7 @@ ActiveRecord::Schema.define(version: 20131028080903) do
     t.text     "content",    limit: 16777215
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "score",                         default: 0
   end
 
   create_table "attachments_issues", id: false, force: true do |t|
@@ -83,6 +84,7 @@ ActiveRecord::Schema.define(version: 20131028080903) do
     t.string   "number"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "score",      default: 0
   end
 
   create_table "menus", force: true do |t|
@@ -106,6 +108,7 @@ ActiveRecord::Schema.define(version: 20131028080903) do
     t.integer  "issue_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "score",       default: 0
   end
 
   add_index "publications", ["issue_id"], name: "index_publications_on_issue_id", using: :btree

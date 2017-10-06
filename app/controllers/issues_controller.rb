@@ -14,6 +14,10 @@ class IssuesController < ApplicationController
   # GET /issues/1
   # GET /issues/1.json
   def show
+    Issue.record_timestamps = false
+    @issue.score += 1
+    @issue.save
+    Issue.record_timestamps = true
     @attachment = Attachment.new
     @publications = @issue.publications.order(:id)
     @publication = @issue.publications.new

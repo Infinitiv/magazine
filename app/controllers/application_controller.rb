@@ -10,6 +10,7 @@ class ApplicationController < ActionController::Base
   before_action :set_news
   before_action :set_last_issue
   before_action :set_locale
+  before_action :set_score
 
   def current_user
     @current_user = User.find_by_id(session[:user_id])
@@ -92,5 +93,10 @@ class ApplicationController < ActionController::Base
 
   def set_news
     @news = ArticleType.order('updated_at DESC').where(name: 'news').first.articles.limit(5)
+  end
+  
+  def set_score
+    @views = [Publication.select(:score).sum(:score), Issue.select(:score).sum(:score)].sum
+    @downloads = [Attachment.select("attachments.score").joins(:publications).sum(:score), Attachment.select("attachments.score").joins(:issues).sum(:score)].sum
   end
 end

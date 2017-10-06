@@ -36,10 +36,13 @@
 <%= render partial: 'layouts/menu_form' if @editor_permission %>
      <div class="row">
       <% unless @news.count == 0 %>
-      <div class="small-3 large-2 columns panel news"><h1>Новости</h1>
-      <ul class="no-bullet">
-        <%= render partial: 'layouts/news', collection: @news %>
-      </ul>
+      <div class="small-3 large-2 columns panel news">
+        <h1>Новости</h1>
+        <ul class="no-bullet">
+          <%= render partial: 'layouts/news', collection: @news %>
+        </ul>
+        <h1>Статистика</h1>
+        <%= render partial: 'layouts/score' %>
       </div>
       <div class="small-9 large-10 columns">
         <% else %>

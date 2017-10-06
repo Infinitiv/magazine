@@ -3,6 +3,10 @@ class Issue < ActiveRecord::Base
   has_and_belongs_to_many :attachments
   
   validate :year, :volume, :number, :presence => true
+  
+  def self.score
+    [Attachment.joins(:issues).select("attachments.score").sum(:score), Issue.select(:score).sum(:score)].sum
+  end
 
   def self.import(file)
   	xml = Nokogiri::XML(File.open(file.tempfile.path))
