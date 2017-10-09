@@ -1,4 +1,4 @@
 <ul class="no-bullet">
-  <li><strong>Просмотров:</strong>&nbsp;<%= @views %></li>
-  <li><strong>Скачиваний:</strong>&nbsp;<%= @downloads %></li>
+  <li><i class="fi-eye"></i>&nbsp;<%= number_with_delimiter(@views, delimiter: " ") %></li>
+  <li><i class="fi-download"></i>&nbsp;<%= number_with_delimiter(@downloads, delimiter: " ") %></li>
 </ul>
