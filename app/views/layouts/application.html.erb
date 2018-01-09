@@ -43,6 +43,12 @@
         </ul>
         <h1>Статистика</h1>
         <%= render partial: 'layouts/score' %>
+        <hr/>
+        <%= link_to 'https://corp.antiplagiat.ru/', target: '_blank' do %>
+          <%= image_tag('logotip_rgp.png', size: '100%', class: 'left') %>
+          <br/>
+        <% end %>
+        <hr/>
       </div>
       <div class="small-9 large-10 columns">
         <% else %>
